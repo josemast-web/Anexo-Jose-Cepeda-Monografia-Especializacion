@@ -1,0 +1,65 @@
+label	replace by
+machine learning technique	machine learning
+machine learning model	machine learning
+machine learning algorithm	machine learning
+ml	machine learning
+long short term memory	lstm
+long short-term memory	lstm
+lstm model	lstm
+random forest model	random forest
+rf	random forest
+arima model	arima
+sarima model	sarima
+artificial neural network	neural network
+ann	neural network
+support vector machine	svm
+support vector regression	svr
+dengue fever	dengue
+dengue virus	dengue
+denv	dengue
+dengue case	dengue cases
+number of dengue case	dengue cases
+precipitation	rainfall
+climate variable	climatic variables
+climatic variable	climatic variables
+meteorological variable	climatic variables
+weather variable	climatic variables
+aedes aegypti mosquito	aedes aegypti
+ae. aegypti	aedes aegypti
+study	
+paper	
+article	
+result	
+method	
+approach	
+analysis	
+data	
+use	
+research	
+author	
+purpose	
+objective	
+aim	
+conclusion	
+finding	
+year	
+period	
+case	
+number	
+work	
+present study	
+this study	
+addition	
+order	
+part	
+term	
+type	
+value	
+role	
+elsevier	
+copyright	
+rights reserved	
+ieee	
+springer	
+background	
+introduction	

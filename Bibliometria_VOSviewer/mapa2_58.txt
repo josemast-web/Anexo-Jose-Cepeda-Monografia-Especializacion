@@ -1,0 +1,52 @@
+﻿id	label	x	y	cluster	weight<Links>	weight<Total link strength>	weight<Occurrences>	score<Avg. pub. year>
+1	aedes aegypti	0.5305	-0.2192	1	12	12	5	2021.4
+2	air temperature	-0.9495	0.0797	2	15	15	3	2019.6667
+3	arboviral disease	0.4022	-0.4369	4	9	9	3	2024.3333
+4	arima	0.9075	0.4374	1	21	26	4	2025.5
+5	catboost	0.4878	-0.4318	4	7	7	3	2024.6667
+6	climate data	-0.6776	0.0373	3	17	19	7	2022.1429
+7	colombia	-0.5574	-0.0789	3	18	18	5	2021.2
+8	correlation coefficient	-0.615	0.5924	2	20	23	3	2022
+9	decision making	0.2956	-0.6694	4	11	12	4	2022.25
+10	dengue incidence rate	-0.6579	0.1082	2	13	14	4	2021
+11	dengue surveillance	-0.1658	0.4566	3	16	17	3	2022.6667
+12	dengue transmission	0.7765	-0.156	1	20	25	7	2023.8571
+13	disease transmission	1.0623	0.1599	1	14	15	3	2022
+14	early detection	-0.2844	-0.0169	3	6	6	3	2023.6667
+15	early prediction	0.7363	0.9335	1	6	6	3	2024.3333
+16	ensemble	0.6758	-0.4543	1	16	17	3	2025.3333
+17	ensemble model	0.476	-0.0031	1	19	19	5	2024.6
+18	epidemiological data	-0.1058	-0.2459	3	8	9	3	2022.6667
+19	epidemiological week	-0.1461	-0.3158	3	13	13	3	2024.6667
+20	federal district	0.4445	-0.59	4	9	11	3	2023.3333
+21	generalized additive model	-1.0246	-0.5563	5	4	4	3	2020.3333
+22	infectious disease	-0.3847	0.2801	2	21	27	5	2021.8
+23	iquitos	-0.2816	0.5643	2	22	32	6	2023.6667
+24	lstm	0.4031	0.0575	1	32	52	11	2023.6364
+25	mape	-0.0772	-0.5077	5	13	15	3	2024
+26	meteorological data	-0.7593	0.2262	3	13	14	4	2025.5
+27	mexico	-1.1435	0.1765	2	12	13	5	2021.2
+28	outbreak detection	-0.2836	-0.8681	5	9	9	3	2024
+29	peru	-0.2687	0.251	2	27	42	7	2024.4286
+30	predictive model	-1.0319	0.2637	2	14	17	4	2018.5
+31	predictive performance	0.6991	-0.0653	1	21	24	4	2022.25
+32	predictive power	-0.8896	0.5479	2	15	19	4	2018.25
+33	public health	-0.005	-0.5834	4	15	17	4	2023
+34	public health authority	-0.6713	-0.6418	5	12	14	4	2025
+35	puerto rico	-0.7271	0.5465	2	22	31	5	2022.2
+36	relative humidity	-0.3235	0.0978	2	21	27	5	2023.8
+37	resource allocation	-0.7205	-0.7429	5	7	8	3	2025
+38	rio de janeiro	0.9278	-0.1302	1	13	13	4	2023.25
+39	rmse	-0.1866	-0.1179	2	22	28	6	2024.5
+40	sarimax	0.6424	0.0829	1	20	26	5	2023.6
+41	spread	0.9191	0.0375	1	10	13	4	2023.75
+42	surveillance data	-0.1441	0.7334	2	19	23	4	2024.5
+43	time series model	0.361	0.7117	1	23	36	7	2023
+44	vector control	0.4305	0.1898	3	11	12	3	2024.6667
+45	vegetation	-1.1603	-0.0797	2	9	9	3	2024
+46	viral disease	1.106	-0.0948	1	15	20	4	2024.75
+47	weather	0.8511	-0.09	4	8	8	3	2023.3333
+48	weather data	0.1267	0.5414	2	14	16	3	2021.6667
+49	weekly dengue case	-0.5378	-0.2983	3	17	19	5	2024
+50	weekly dengue incidence	1.0732	0.3768	1	9	11	3	2023
+51	xgboost	0.4451	-0.0955	1	16	16	3	2025.6667

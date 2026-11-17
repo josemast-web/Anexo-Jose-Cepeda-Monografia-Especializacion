@@ -1,0 +1,14 @@
+id	label	cluster	weight<Estudios>
+1	Temperatura	1	50
+2	Precipitación / lluvia	1	49
+3	Casos / incidencia histórica	2	42
+4	Humedad relativa	1	20
+5	Población / demografía	3	15
+6	Estacionalidad / calendario	3	10
+7	Vegetación / NDVI / EVI	3	10
+8	Punto de rocío	1	7
+9	Variables climáticas y ambientales sin desglose	1	4
+10	Datos de localidades relacionadas	3	3
+11	Movilidad / búsquedas digitales	3	2
+12	Humedad absoluta / específica	1	2
+13	Radiación solar	1	1

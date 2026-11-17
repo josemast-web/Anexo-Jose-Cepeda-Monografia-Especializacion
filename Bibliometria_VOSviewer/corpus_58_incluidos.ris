@@ -1,0 +1,787 @@
+TY  - JOUR
+AU  - Mandal, Anita
+AU  - Debnath, Papiya
+AU  - Das, Pritha
+AU  - Ghosh, Dibakar
+TI  - A climate-driven mechanistic model of dengue transmission: Linking entomological processes to epidemiological dynamics
+PY  - 2026
+JO  - CHAOS SOLITONS & FRACTALS
+AB  - Dengue transmission is strongly influenced by climatic variability, and understanding how weather affects mosquito ecology is essential for both interpreting outbreaks and improving surveillance. In this study, we analyze weekly dengue incidence together with temperature, rainfall, and humidity data from Brasilia, which serve as the basis for deriving empirical, climate sensitive entomological parameters describing mosquito development, mortality, and aquatic stage dynamics. Using these weather informed parameters, we formulate and calibrate a six-compartment dengue transmission model that incorporates the mosquito aquatic stage. The model is employed to investigate the underlying transmission mechanisms, including parameter sensitivity, the temporal evolution of the basic reproduction number R0(t) and the influence of climatic drivers on system behavior. The epidemiological relevance of R0(t) is examined through comparison with weekly reported dengue incidence. Additional analyses such as bifurcation assessment and evaluation of vector-control and treatment-related parameters provide further insight into how environmental conditions and interventions shape transmission potential. Complementing the mechanistic analysis, we conduct a data-driven forecasting study using several statistical and machine learning approaches (Neural Networks, Support Vector Regression, Extreme Gradient Boosting, Seasonal ARIMA, and Long Short Term Memory networks) applied to the epidemiological and climate datasets. This component examines the predictive performance of diverse methods across linear and nonlinear temporal patterns, highlighting the role of climate information in improving incidence forecasts. By integrating climate derived entomological characterization, mechanistic modeling, and data driven forecasting within a unified framework, this study enhances our understanding of climate-dengue interactions while also evaluating practical approaches for short term outbreak prediction.
+DO  - 10.1016/j.chaos.2025.117818
+N1  - R0006
+ER  - 
+
+TY  - JOUR
+AU  - Pereira, Charles Clezar
+AU  - Hahn, Pedro Henrique Mittmann
+AU  - Maciel, Rodrigo Cesar Nunes
+AU  - Farias, Anderson Rodrigo
+AU  - Crotti, Yuri
+TI  - Aplicação de modelos de Machine Learning para previsão de casos de dengue e classificação de risco epidêmico na região sul do brasil
+PY  - 2026
+JO  - Revista Vincci - Periódico Científico do UniSATC
+AB  - Dengue is an infectious disease with a strong impact on Brazilian public health, where its incidence is directly related to environmental, climatic, and population factors. Predicting outbreaks still represents a major challenge, but advances in the field of data science have enabled new predictive approaches. Among these, machine learning models stand out as effective tools for identifying complex patterns and supporting strategic decision-making in public health. This work aims to develop, evaluate, and compare different machine learning models for predicting dengue outbreaks in Southern Brazil, based on epidemiological data and complementary variables such as climate (temperature, humidity, precipitation) and population characteristics (density, age distribution, and urbanrural distribution). The adopted methodology included processing, normalizing, and integrating different databases, creating derived variables (such as proportions and time lags), applying supervised regression models, and a comparative performance analysis using metrics such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and the Coefficient of Determination ($R^2$). Furthermore, the results were evaluated from a risk classification perspective, based on incidence ranges of dengue cases per municipality and epidemiological week, applying metrics such as accuracy, precision, recall, and F1-Score. The results showed significant differences between the tested models. XGBoost, for example, presented the best overall performance, with low mean error (MAE = 7.06) and a high data understanding capacity ($R^2 = 0.94$), in addition to good performance in risk classification (accuracy = 0.926; F1-score = 0.839). Similarly, Random Forest also achieved good results, with a balance between error and accuracy (MAE = 7.80; $R^2 = 0.93$; accuracy = 0.933; F1-score = 0.855). In contrast, simpler models such as Linear Regression and Decision Trees showed lower performance. It is concluded that predictive modeling, when well-founded and contextualized, can be a valuable tool in tackling seasonal diseases such as dengue.
+DO  - 10.70185/2525-6025.2025.v10.519
+N1  - R0023
+ER  - 
+
+TY  - JOUR
+AU  - Mehta, Amiben
+AU  - Patel, Kajal
+TI  - Climate-Aware LSTM Framework for Dengue Forecasting: Evidence from Multi-City Indian and SJ/IQ Datasets
+PY  - 2026
+JO  - ITEGAM- Journal of Engineering and Technology for Industrial Applications (ITEGAM-JETIA)
+AB  - For effective public health preparedness, it is essential to accurately predict the number of dengue cases, especially in tropical and subtropical areas where climate change has a significant impact on how the disease spreads. Standard statistical time-series models, such as the Autoregressive Integrated Moving Average (ARIMA), are commonly utilized but have certain limitations because they assume linear interactions and cannot easily capture climate-disease relationships that are delayed or nonlinear. We examine the feasibility of a Long Short-Term Memory (LSTM)–based forecasting approach that incorporates meteorological factors with lagged dengue incidence to enhance the modelling of temporal dependencies. Monthly dengue surveillance data from Gujarat, India, spanning 2010 to 2019, were integrated with meteorological variables like temperature, relative humidity, and precipitation. Lagged climatic and dengue features were created to take into account short-term effects and seasonal persistence. The dataset was separated into three parts: training, validation, and testing. We trained a single-layer LSTM network with 16 hidden units with dropout regularization. The Adam optimizer was used to train the model, and the mean absolute error (MAE), root-mean-square error (RMSE), and the coefficient of determination (R²) were used to evaluate the model's performance. To test how well the proposed model works in general, it was also tested on dengue datasets from San Juan (Puerto Rico) and Iquitos (Peru). The experimental results show that LSTM model outperformed both the ARIMA and Random Forest baselines on both datasets. The LSTM got a test MAE of about 32 cases and a R² value of 0.82 on the Gujarat test set. This shows that it works well in the real-world dataset. The datasets from Kaggle showed similar gains. These results show that climate-aware LSTM models are good at predicting dengue cases and can help build strong early warning systems in areas where cases are dependent on climate change.
+DO  - 10.5935/jetia.v12i59.3376
+N1  - R0039
+ER  - 
+
+TY  - JOUR
+AU  - Silva, Darllan Collins da Cunha E.
+AU  - Nery, Liliane Moreira
+AU  - Nicomedes, Nícholas de Paula
+AU  - Camargo, Pedro Cesar Madureira de Godoy
+AU  - Lusquino Filho, Leopoldo André Dutra
+AU  - Costa, Raphael de Vicq Ferreira da
+AU  - Valente, Teresa Maria Fernandes
+TI  - Comparative evaluation of machine learning strategies for short-term dengue forecasting in Brazilian capital municipalities.
+PY  - 2026
+JO  - International journal of biometeorology
+AB  - Dengue is an arboviral disease of high public health relevance, characterized by pronounced temporal variability, nonlinearity, and recurrent outbreaks, which pose challenges to epidemiological surveillance and decision-making. This study evaluated the performance of machine learning methods for short-term forecasting of the weekly dengue morbidity rate in the 27 Brazilian capital cities, comprising the 26 state capitals and Brasília, Federal District, with horizons up to 4 weeks. Epidemiological, climatic, and socioeconomic data were compiled for these capital cities and used to compare a Gated Recurrent Unit (GRU) neural network, formulated as a Multi-Input Multi-Output (MIMO) model, and a Gradient Boosting model (CatBoost), implemented using a Direct forecasting strategy with horizon-specific models. Validation was conducted using a walk-forward approach, with evaluation based on absolute error metrics and the coefficient of determination. The results indicated that the GRU architecture presented recurring limitations, including underfitting, temporal lag, and low capacity to anticipate epidemic peaks. In contrast, the CatBoost model demonstrated greater robustness and better adaptation to the variability of epidemiological time series, showing superior performance in most of the analyzed capitals. The findings reinforce that greater architectural complexity does not necessarily imply better operational performance and highlight the potential of ensemble-based methods for short-term epidemiological surveillance applications. These findings contribute to dengue forecasting by showing that, under a common validation framework, ensemble-based strategies may provide greater operational robustness than recurrent MIMO architectures for short-term prediction in heterogeneous epidemiological settings.
+DO  - 10.1007/s00484-026-03300-7
+N1  - R0047
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Xiang
+AU  - Moraga, Paula
+TI  - Dengue forecasting and outbreak detection in Brazil using LSTM: integrating human mobility and climate factors.
+PY  - 2026
+JO  - Infectious Disease Modelling
+AB  - BACKGROUND: Dengue fever is a major global health concern, with Brazil experiencing recurrent and severe outbreaks due to its favorable climate factors, socio-environmental conditions, and increasing human mobility. Accurate forecasting of dengue cases and outbreak risk is essential for early warning systems and effective public health interventions. Traditional forecasting models primarily rely on historical case data and climate variables, often neglecting the role of human movement in virus transmission. This study addresses this gap by incorporating human mobility data into a deep learning-based dengue forecasting framework. METHOD: An LSTM-based model was developed to forecast weekly dengue cases and detect outbreaks across selected Brazilian cities. The model integrates historical dengue cases, lagged climate variables (temperature and humidity), and human mobility-adjusted imported cases to capture both temporal trends and spatial transmission dynamics. Its performance was evaluated against three alternative models: (1) an LSTM using only dengue case data, (2) an LSTM incorporating climate variables, and (3) an LSTM integrating climate and geographic neighborhood effects. Forecasting accuracy was assessed using Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Continuous Ranked Probability Score (CRPS), while outbreak classification was evaluated using accuracy, sensitivity, specificity, and the F1 score. RESULTS: The proposed mobility-enhanced LSTM model consistently outperformed all baselines in both dengue case forecasting and outbreak detection. Across all cities, it achieved lower MAE and MAPE values, indicating improved accuracy, while also demonstrating superior CRPS performance, reflecting well-calibrated uncertainty estimates. In outbreak classification, the model achieved the highest sensitivity and F1 scores, highlighting its effectiveness in detecting outbreak periods compared to models that relied solely on case trends, climate variables, or geographic proximity. The results underscore the importance of integrating mobility data in dengue forecasting, particularly in urban centers with high population movement. CONCLUSION: By incorporating human mobility dynamics into deep learning-based forecasting, this study presents a scalable and adaptable framework for enhancing dengue early warning systems. The proposed model provides more accurate case predictions and outbreak classifications, offering actionable insights for public health planning and resource allocation. Beyond dengue, this approach can be extended to other vector-borne diseases influenced by mobility and climate factors, supporting more effective epidemic preparedness strategies worldwide.
+DO  - 10.1016/j.idm.2025.11.002
+N1  - R0052
+ER  - 
+
+TY  - JOUR
+AU  - Martínez-Cadena, J. A.
+AU  - Sánchez-Cerritos, J. M.
+AU  - Alvarez-Ramirez, J.
+AU  - Marin-Lopez, A.
+AU  - Delgado-Fernández, J.
+AU  - Fuentecilla-Carcamo, I.
+TI  - Eco-epidemiological clustering and cluster-wise forecasting of dengue in Mexico, 2020-2025.
+PY  - 2026
+JO  - Acta tropica
+AB  - Dengue transmission varies markedly across Mexico, posing challenges for short-term operational planning. We propose a two-layer framework that (i) constructs incidence-free eco-epidemiological clusters for the 32 Mexican states and (ii) produces one-week-ahead forecasts of weekly dengue cases at the cluster level with quantified uncertainty, expressed through P10-P90 prediction bands. Our analysis covers 283 epidemiological weeks per state from 2020 to 2025, with all 32 states retained after meteorological quality control. Clusters are identified using full-covariance Gaussian mixture models applied to seasonal summaries of temperature, relative humidity and vapour-pressure deficit, precipitation, solar radiation, and wind, together with descriptors of weekly seasonality. We select the number of clusters, k, using the Bayesian information criterion or integrated complete likelihood, and we confirm robustness with bootstrap adjusted Rand index, favoring k = 5. For forecasting, we train cluster-specific HistGradientBoosting (Poisson) models using leak-free lagged incidence and lagged or rolling meteorological data, fitting quantile variants (α=0.10, 0.90) to create P10-P90 bands. Over the last 20 weeks, the overall performance measures are a mean absolute error of 17.1 and a root mean square error of 27.7, outperforming a seasonal-naïve baseline in several clusters. The best-performing cluster achieves a mean absolute error of about 5.6 and a root mean square error of about 10.2, while the most variable cluster reaches a mean absolute error of about 38.1 and a root mean square error of about 55.1. Residuals center around zero but show heavy tails during rapid changes. Ablation studies show that climate contributes small, regime-specific improvements at h = 1 (mean absolute error +1.8%, root mean square error -1.4% without climate), whereas removing autoregressive terms more than doubles the error (mean absolute error +109.7%, root mean square error +106.9%). Based on open surveillance and NASA POWER data, this framework provides understandable spatial types and practical, uncertainty-aware forecasts to aid in subnational dengue preparedness.
+DO  - 10.1016/j.actatropica.2026.107993
+N1  - R0060
+ER  - 
+
+TY  - JOUR
+AU  - Charles, Lauren E.
+AU  - Edwards, Trevor
+AU  - Phillips, Conner
+TI  - Environmental and epidemiological drivers of dengue forecasting across heterogeneous transmission settings in Brazil and Panama.
+PY  - 2026
+JO  - One health (Amsterdam, Netherlands)
+AB  - BACKGROUND: Dengue fever is the fastest-growing mosquito-borne viral disease globally, with unprecedented epidemics reported across the Americas in 2024. Brazil and Panama experienced record transmission that strained public health systems and highlighted limitations in existing surveillance and early warning approaches. Despite growing evidence that climatic variability, land-use change, and other environmental factors influence dengue transmission, scalable approaches integrating heterogeneous environmental datasets remain limited. METHODS: We integrated climatic, environmental, demographic, and epidemiological datasets to develop and evaluate a dengue forecasting system across Brazil and Panama. Monthly surveillance data (2015-2024) were harmonized with multi-source environmental predictors using a reproducible workflow before evaluating statistical, machine learning, and neural network models. Performance was assessed using standard forecasting metrics and agreement between predicted and observed transmission patterns during the 2024 epidemic. FINDINGS: Dengue transmission exhibited substantial spatial heterogeneity across both countries. Environmental predictors, including temperature, precipitation variability, land-cover characteristics, mosquito suitability, and demographic indicators, dominated model performance in Brazil, whereas recent transmission history contributed more strongly in Panama. Ensemble forecasts reduced MAE by 24·4% in Brazil and 29·0% in Panama relative to a seasonal-naïve benchmark and demonstrated substantial agreement with observed spatial risk classifications. INTERPRETATION: Integrating heterogeneous environmental datasets with epidemiological surveillance improved understanding and prediction of dengue transmission across contrasting ecological settings. Differences in the relative importance of environmental and epidemiological predictors between Brazil and Panama suggest that forecasting approaches should be adapted to local environmental conditions rather than transferred directly across regions, supporting climate-informed surveillance and public health planning.
+DO  - 10.1016/j.onehlt.2026.101563
+N1  - R0064
+ER  - 
+
+TY  - JOUR
+AU  - Li, Huixuan
+AU  - Lee, Christopher
+AU  - Sweeney, Sean
+AU  - Valafar, Homayoun
+AU  - Nolan, Melissa S.
+TI  - Geographic expansion, not viral intensification, leads to human dengue outbreaks in Mexico: a 40-year integrated remote sensing and machine learning analysis.
+PY  - 2026
+JO  - Frontiers in public health
+AB  - BACKGROUND: Dengue fever poses a pervasive, yet escalating public health burden in Mexico and abroad. METHODS: We conducted a 41-year spatiotemporal analysis of dengue fever across Mexico (1985-2025), integrating monthly case surveillance with climate, land cover, vegetation, and novel disaster severity covariates derived from the Emergency Events Database. Four supervised regression models were trained on 1990-2021 data, with models evaluated on a 2022-2023 temporal holdout and against observed 2024-2025 surveillance totals. Five supplementary hazard analyses examined temporal correlation, disaster type breakdown, spatial co-occurrence, pre/post event trajectories, and sensitivity to scoring weight assumptions. RESULTS: Mann-Kendall trend analysis identified statistically significant increasing dengue incidence in 15 of 32 states (9 inland), evidencing geographic expansion over four decades. Z-score analysis confirmed 2024 as a profound anomaly across both endemic and emerging states. Hazard features were significantly associated with national monthly dengue counts at lags 0-2 months across the full 1985-2025 series. A + 613% case increase following the June 2024 tropical storm. Sensitivity analyses confirmed the project's developed 'Severity Score' performed comparably to four theoretically motivated differential weighting schemes. CONCLUSION: This study provides the first structured integration of disaster severity covariates in a dengue forecasting framework for Mexico. Geographic expansion into inland states, the 41-year trend analysis, and the hazard adjustment results collectively support a differentiated public health response that targets both endemic coastal states and newly affected inland regions. The analytical framework is directly transferable to emerging dengue risk contexts in the United States and Central America, geographic neighbors also experiencing increased dengue virus transmission.
+DO  - 10.3389/fpubh.2026.1888753
+N1  - R0075
+ER  - 
+
+TY  - JOUR
+AU  - Siabi, Negar
+AU  - Son, Rackhun
+AU  - Thomas, Maik
+AU  - Irrgang, Christopher
+AU  - Saynisch-Wagner, Jan
+TI  - Innovative application of a traffic-prediction spatio-temporal graph convolutional network for dengue disease forecasting.
+PY  - 2026
+JO  - Scientific reports
+AB  - Dengue fever, a vector-borne disease, is a major public health challenge. Accurate prediction methods that can better reflect the complexity of the outbreak are essential for dengue prediction and vector control. In this study, we introduce an adapted Spatio-Temporal Graph Convolutional Network (STGCN), originally developed for traffic forecasting, to predict weekly dengue cases in nine countries in South and Central America from 2014 to 2022. In this approach, we use environmental and socio-economic data in addition to climate data and historical dengue case information to capture complex transmission dynamics. We evaluate the STGCN against a Random Forest (RF) model using the same predictors. The evaluation results show that the STGCN model effectively captures outbreak dynamics and short-term trends. This was especially evident in cases where early transmission patterns are critical. In most of the countries analyzed, STGCN outperformed the baseline random forest model, especially in short-term forecasts, and achieved lower forecast errors in most settings. Forecasting performance varied across regions, with [Formula: see text] values ranging from 0.78 to 0.98 and RRMSE between 0.14 and 0.43 in short-term forecasts. The strength of the STGCN algorithm lies in its ability to capture spatio-temporal dependencies and handle heterogeneous data sources. This has been particularly valuable in areas with a high dengue burden. Although performance of the model varied slightly across countries, our overall findings highlight the robustness and adaptability of STGCN as a graph-based deep learning framework for dengue surveillance and early detection of its outbreaks.
+DO  - 10.1038/s41598-026-36225-7
+N1  - R0083
+ER  - 
+
+TY  - JOUR
+AU  - Li, Danyang
+AU  - Li, Weide
+AU  - Zhang, Haotian
+AU  - Hu, Shujuan
+TI  - Integrating machine learning and data-driven modelling: predicting dengue outbreaks and revealing spatially heterogeneous climatic drivers in Brazil.
+PY  - 2026
+JO  - Journal of the Royal Society, Interface
+AB  - Dengue fever poses a major global health threat, with Brazil experiencing severe recurrent outbreaks driven by climatic, socio-economic and mobility factors. Accurate prediction remains challenging owing to dynamically shifting transmission patterns under intervention. This study employs a physics-informed neural network framework to integrate surveillance data with mechanistic models, inferring time-varying intervention parameters. The model demonstrates a strong capacity to fit state-level data from Brazil. Furthermore, it is used to generate 12-week forecasts for future dengue cases. Given the critical influence of climate on transmission dynamics, we also constructed separate eXtreme Gradient Boosting (XGBoost) models for individual states using epidemiological and meteorological data. SHapley Additive exPlanation (SHAP) analysis was applied to identify key climatic drivers and reveal significant regional heterogeneity. Our findings reveal that the drivers of the outbreak exhibit regional heterogeneity, and this geographical variation shows a strong correlation with the intensity of human activities and regional economic development levels. These insights into spatial heterogeneity and predictive modelling can inform the design of more effective, regionally tailored public health strategies for dengue control in Brazil.
+DO  - 10.1098/rsif.2026.0071
+N1  - R0086
+ER  - 
+
+TY  - JOUR
+AU  - Araujo, Eduardo Correa
+AU  - Carvalho, Luiz Max
+AU  - Ganem, Fabiana
+AU  - Vacaro, Luã Bida
+AU  - Bastos, Leonardo S.
+AU  - Freitas, Laís Picinini
+AU  - de Almeida, Iasmim Ferreira
+AU  - Bastos, Marcio
+AU  - Alencar, Ramila
+AU  - Bianchi, Lucas
+AU  - Capellán, Raúl
+AU  - Chen, Xiang
+AU  - Cruz, Oswaldo
+AU  - Cunha
+TI  - Leveraging probabilistic forecasts for dengue preparedness and control: The 2024 Dengue Forecasting Sprint in Brazil.
+PY  - 2026
+JO  - Proceedings of the National Academy of Sciences of the United States of America
+AB  - Forecast models are a key decision-support tool for public health authorities in managing epidemics, feeding into early warning systems, scenario evaluations, and an empirical basis for resource allocation. In Brazil, improving dengue forecasting became a priority in response to the unprecedented increase in cases, which surpassed the total of the previous decade and expanded to new regions. The Infodengue-Mosqlimate consortium launched the Infodengue-Mosqlimate Dengue Challenge 2024 (IMDC24), or Dengue Forecast Sprint, bringing together six international teams provided with cases and climate covariates data to generate actionable forecasts for 2024 and 2025 seasons in five diverse Brazilian states, leveraging advanced machine learning and classical statistical models. This paper outlines the structure and findings of the IMDC24. The performance of the models varied between years and locations, and no single model consistently excelled, especially during 2024's unprecedentedly large season. This performance variability highlighted the need for ensemble approaches. The ensemble models developed are presented as the main results of this collaborative development. As intended, the ensemble models have been adopted by Brazilian public health authorities to help with planning and response to the forecasted 2025 dengue epidemics across the country.
+DO  - 10.1073/pnas.2508989123
+N1  - R0091
+ER  - 
+
+TY  - JOUR
+AU  - Bannoud, Mohamad Al
+AU  - Mendes, Jorge Luiz
+AU  - Sacay, Rodrigo Seiti
+AU  - Martins, Tiago Dias
+AU  - Bresolin, Iara Rocha Antunes Pereira
+AU  - Lourenço, Joana Bratz
+TI  - Machine Learning forecasting of dengue in São Paulo using virtual data augmentation and urban incident predictors: Addressing the exceptional surge of cases in 2024.
+PY  - 2026
+JO  - Acta tropica
+AB  - Dengue remains one of the most critical vector-borne diseases globally, with Brazil consistently reporting the highest incidence in the Americas. The 2024 epidemic was the largest in the country's history, with São Paulo as its epicenter. This study developed and evaluated a machine learning (ML) framework to forecast dengue under extreme epidemic conditions, focusing on enhancing model robustness when testing data exceed the range of historical observations. A novel virtual data augmentation strategy was introduced to expose models to synthetic large-scale outbreaks and to assess the predictive value of urban incident variables such as flooding and flooded streets. Epidemiological, climatic, and urban incident data from 2014 to 2022 were used for model training, and 2023-mid-2025 for testing. Fourteen ML algorithms were systematically evaluated under multiple preprocessing configurations, including feature scaling, lagged predictors, feature combinations, data augmentation, and feature reduction. Forecasts targeted probable, confirmed, severe, and fatal dengue cases at a one-week horizon. The algorithms AdaBoost and CatBoost achieved the highest predictive accuracy. Virtual data augmentation substantially improved robustness when test values exceeded training maxima, reducing RMSE by up to 80% for probable and confirmed cases, 42% for severe cases, and 53% for deaths compared with models trained on unaugmented data. Flooding-related indicators, especially flooded-street case counts, were among the most influential predictors. The proposed ML framework accurately forecasted dengue incidence and severity during the unprecedented 2024 outbreak. The virtual augmentation method effectively managed distributional shifts and extreme epidemic magnitudes, providing a transferable foundation for early-warning systems and public-health preparedness in urban settings.
+DO  - 10.1016/j.actatropica.2026.107992
+N1  - R0094
+ER  - 
+
+TY  - JOUR
+AU  - F. Federiconi
+AU  - A. Giuseppi
+AU  - D. Iacoviello
+TI  - Predicting Dengue Outbreak Dynamics from Climate and Socio-Economical Data
+PY  - 2026
+AB  - Dengue fever represents a significant public health threat, particularly in tropical and subtropical regions. The incidence of this mosquito-borne viral infection has increased dramatically in recent decades, posing a considerable challenge to healthcare systems. Accurate and early prediction of dengue outbreaks is crucial for effective public health intervention, yet remains a challenge due to the complex spread factors. This paper addresses this challenge by developing and comparing two machine learning models for forecasting dengue incidence in several South American countries. We constructed a comprehensive dataset integrating heterogeneous data sources, including climatic, socio-economic, and historical epidemiological records. We propose and evaluate two distinct approaches: a stacking ensemble model composed of CatBoost regressors and a feed-forward Neural Network. The models were evaluated on an unseen test set composed by up to 14 months into the future. Our results demonstrate that the Neural Network generally achieves superior performance in terms of error metrics, whereas the ensemble model, while effective in identifying key predictive features such as temporal and environmental variables, showed limitations in accurately capturing the peak magnitude of outbreaks. Our findings highlights the potential of integrating heterogeneous datasets with advanced machine learning techniques for early dengue epidemic detection.
+DO  - 10.1109/MED70602.2026.11598304
+N1  - R0101
+ER  - 
+
+TY  - JOUR
+AU  - Machchar, Pratik S.
+AU  - Ramanuj, Purvi N.
+AU  - Patel, Rajan
+AU  - Bhatia, Jitendra
+AU  - Jani, Kuntesh
+TI  - Prognosis of vector borne dengue disease outbreak in urban areas using multivariate analysis
+PY  - 2026
+JO  - International Journal of Informatics and Communication Technology (IJ-ICT)
+AB  - Vector borne disease like dengue continues to pose a significant climate-sensitive public health challenge in tropical regions such as Brazil, Peru, and India. This study examines the feasibility of predicting dengue outbreaks using weekly multivariate time-series data from San Juan (SJ), Puerto Rico and Iquitos (IQ), Peru. Dengue incidence was analyzed alongside meteorological, environmental, and vegetation-based variables to capture key climatic influences. Several machine learning and deep learning approaches were evaluated, including LightGBM. Model performance was assessed using root mean square error (RMSE) and mean absolute error (MAE). The results show that LightGBM achieved the low est RMSEMAE, indicating strong short-term predictive accuracy and excellent interpretability. Feature importance analysis and principal component analysis (PCA) identified precipitation, dew point temperature, and humidity as the most influential predictors of dengue incidence. The study demonstrates that advanced machine learning models can serve as reliable early warning systems for vector-borne diseases. While this research focuses on dengue, the methodology is adaptable to other vector-bone datasets and diseases, offering a flexible tool for public health authorities to predict and mitigate outbreaks in diverse urban contexts.
+DO  - 10.11591/ijict.v15i3.pp1066-1077
+N1  - R0107
+ER  - 
+
+TY  - JOUR
+AU  - Maritza, Cabrera
+AU  - Jose, Naranjo-Torres
+AU  - Angel, Cabrera
+AU  - Lysien, Zambrano
+AU  - Alfonso, Rodriguez-Morales J.
+TI  - A Machine Learning Tool with An Integrated Dataset Towards the Construction of An Early Warning System for Dengue in Zulia State, Venezuela
+PY  - 2025
+JO  - REVISTA DEL CUERPO MEDICO DEL HOSPITAL NACIONAL ALMANZOR AGUINAGA ASENJO
+AB  - Background: The present study arises in response to the sustained increase in dengue outbreaks in Latin America, with special emphasis on the state of Zulia, Venezuela. This region, composed of 21 municipalities, is highly vulnerable to dengue transmission. Given this scenario, it is essential to have tools that allow early detection of outbreaks and, thus, optimize prevention and public health intervention strategies. The main objective is to develop an early warning system for dengue outbreaks using machine learning (ML) techniques. Materials and methods: Several data sources are integrated: epidemiological information, meteorological parameters, El Ni & ntilde;o and La Ni & ntilde;a (Ni & ntilde;o 3.4 Index), socioeconomic and demographic variables. Two ML models were used: Support Vector Machine for regression (SVM-R) and Gaussian Process Regression (GPR). Results: The predictions obtained showed remarkable agreement with the actual dates on which the outbreaks were recorded, warning of the onset of dengue 2 to 3 weeks in advance, depending on the locality. However, in certain municipalities the predictions were less accurate, a finding that agrees with previous studies. Conclusions: In conclusion, the integration of epidemiological, climatological, and socioeconomic variables using ML techniques is presented as a promising tool for establishing.
+DO  - 10.35434/rcmhnaaa.2025.182.2815
+N1  - R0127
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Xiang
+AU  - Moraga, Paula
+TI  - Assessing dengue forecasting methods: a comparative study of statistical models and machine learning techniques in Rio de Janeiro, Brazil.
+PY  - 2025
+JO  - Tropical medicine and health
+AB  - BACKGROUND: Dengue is a mosquito-borne viral disease that poses a significant public health threat in tropical and subtropical regions worldwide. Accurate forecasting of dengue outbreaks is crucial for effective public health planning and intervention. This study aims to assess the predictive performance and computational efficiency of a number of statistical models and machine learning techniques for dengue forecasting, both with and without the inclusion of climate factors, to inform the design of dengue surveillance systems. METHODS: The dengue forecasting methods comparison in this study considers dengue cases in Rio de Janeiro, Brazil, as well as climate factors known to affect disease transmission. Employing a dynamic window approach, various statistical methods and machine learning techniques were used to generate weekly forecasts at several time horizons. Error measures, uncertainty intervals, and computational efficiency obtained with each method were compared. Statistical models considered were Autoregressive (AR), Moving Average (MA), Autoregressive Integrated Moving Average (ARIMA), and Exponential Smoothing State Space Model (ETS). In addition, models incorporating temperature and humidity as covariates, such as Vector Autoregression (VAR) and Seasonal ARIMAX (SARIMAX), were employed. Machine learning techniques evaluated were Random Forest, XGBoost, Support Vector Machine (SVM), Long-Short-Term Memory (LSTM) networks, and Prophet. Ensemble approaches that integrated the top performing methods were also considered. The evaluated methods also incorporated lagged climatic variables to account for delayed effects. RESULTS: Among the statistical models, ARIMA demonstrated the best performance using only historical case data, while SARIMAX significantly improved predictive accuracy by incorporating climate covariates. In general, the LSTM model, particularly when combined with climate covariates, proved to be the most accurate machine learning model, despite being slower to train and predict. For long-term forecasts, Prophet with climate covariates was the most effective. Ensemble models, such as the combination of LSTM and ARIMA, showed substantial improvements over individual models. CONCLUSIONS: This study demonstrates the strengths and limitations of various methods for dengue forecasting across multiple timeframes. It highlights the best-performing statistical and machine learning methods, including their computational efficiency, underscoring the significance of machine learning techniques and the integration of climate covariates to improve forecasts. These findings offer valuable insights for public health officials, facilitating the development of dengue surveillance systems for more accurate forecasting and timely allocation of resources to mitigate dengue outbreaks.
+DO  - 10.1186/s41182-025-00723-7
+N1  - R0146
+ER  - 
+
+TY  - JOUR
+AU  - M. F. M. Quispe
+AU  - L. A. Gonzales
+TI  - DengueAI Comparative Time-Series and Deep-Learning Modeling for Early Prediction of Dengue Outbreaks in Rural Peru Using Open Data
+PY  - 2025
+AB  - Timely forecasting of dengue outbreaks is crucial for directing limited public-health resources in rural, low-income regions. We present DengueAI, an open-source framework that benchmarks classical time-series models against deep-learning architectures using > 25 years of nationwide open data from Peru. Weekly dengue notifications (1999–2024) were enriched with meteorological covariates and analysed with four families of predictors: ARIMA, Prophet, Long Short-Term Memory (LSTM) and Bidirectional LSTM (BiLSTM). In short-range horizons (1–4 weeks) the best ARIMA configuration achieved $R^{2}=0.9707$ and MAE = 88.7 cases, outperforming neural networks by 5–8 %, whereas LSTM models captured medium-term, non-linear trends when multiple climate variables were included. All models are deployed in a lightweight Streamlit dashboard that generates forecasts, heat maps and downloadable artefacts for local health offices. The study confirms that well-tuned statistical baselines can equal or surpass deep networks in data-scarce settings, while hybrid strategies offer a practical path toward early-warning systems in underserved areas.
+DO  - 10.1109/INTERCON67304.2025.11244382
+N1  - R0162
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Xiang
+AU  - Moraga, Paula
+TI  - Forecasting dengue across Brazil with LSTM neural networks and SHAP-driven lagged climate and spatial effects.
+PY  - 2025
+JO  - BMC public health
+AB  - BACKGROUND: Dengue fever is a mosquito-borne viral disease that poses significant health risks and socioeconomic challenges in Brazil, necessitating accurate forecasting across its 27 federal states. With the country's diverse climate and geographical spread, effective dengue prediction requires models that can account for both climate variations and spatial dynamics. This study addresses these needs by using Long Short-Term Memory (LSTM) neural networks enhanced with SHapley Additive exPlanations (SHAP) integrating optimal lagged climate variables and spatial influence from neighboring states. METHOD: An LSTM-based model was developed to forecast dengue cases across Brazil's 27 federal states, incorporating a comprehensive set of climate and spatial variables. SHAP was used to identify and select the most important lagged climate predictors. Additionally, lagged dengue cases from neighboring states were included to capture spatial dependencies. Model performance was evaluated using MAE, MAPE, and CRPS, with comparisons to baseline models. RESULTS: The LSTM-Climate-Spatial model consistently demonstrated superior performance, effectively integrating temporal, climatic, and spatial information to capture the complex dynamics of dengue transmission. SHAP-enhanced variable selection improved accuracy by focusing on key drivers such as temperature, precipitation and humidity. The inclusion of spatial effects further strengthened forecasts in highly connected states showcasing the model's adaptability and robustness. CONCLUSION: This study presents a scalable and robust framework for dengue forecasting across Brazil, effectively integrating temporal, climatic, and spatial information into an LSTM-based model. The model's successful application across Brazil's diverse regions demonstrates its generalizability to other dengue-endemic areas with varying climatic and epidemiological conditions. By integrating diverse data sources, the framework captures key transmission drivers, demonstrating the potential of LSTM neural networks for robust predictions. These findings provide valuable insights to enhance public health strategies and outbreak preparedness in Brazil.
+DO  - 10.1186/s12889-025-22106-7
+N1  - R0178
+ER  - 
+
+TY  - JOUR
+AU  - Gottipati, Amulya
+AU  - Iragavarapu, Sreeja
+TI  - Forecasting the Spread of Dengue Outbreaks with a Synthesis of Machine Learning Models Utilizing Exogenous Variables
+PY  - 2025
+JO  - Industrial and Systems Engineering Review
+AB  - Dengue fever, a viral mosquito-borne disease, affects four billion people worldwide, posing economic and health burdens. Unfortunately, there are no antiviral drugs to treat dengue infections, requiring patients to rely solely on palliative treatment. Forecasting future epidemics will aid public officials in implementing mitigation efforts by predicting dengue cases. The purpose of this study was to develop a machine learning model that forecasts the incidence of dengue outbreaks temporally and geographically by utilizing eco-climatic and socioeconomic factors. Methods included preprocessing monthly dengue cases, precipitation, temperature, and socioeconomic datasets from seven countries (between 2014 and 2023) before performing a principal component analysis. A novel topographical feature applied to the model was stagnant water, a critical breeding ground for mosquitoes. A ridge regression technique was used to manage multicollinearity within the data before applying it to the seasonal autoregressive integrated moving average with exogenous variables (SARIMAX) model, which accounts for the seasonality aspect of the variables being examined. Overall, the forecasting algorithm was capable of accurately predicting dengue incidence up to at least six months in advance with a mean absolute error of 2.420e-6. When the novel feature of stagnant water was removed from the datasets, the prediction’s accuracy significantly decreased when forecasting for the same time period of six months in advance, demonstrating its importance as a feature when forecasting dengue. Therefore, this algorithm can assist public health officials with planning proactive measures, significantly diminishing economic stress and dengue transmission, thus improving the quality of life in dengue-endemic countries. .
+DO  - 10.37266/iser.2025v12i1.pp13-28
+N1  - R0181
+ER  - 
+
+TY  - JOUR
+AU  - H. Chen
+AU  - H. Sun
+AU  - X. Wang
+TI  - Leveraging Climate Data for Dengue Forecasting in San Juan: An Advanced Deep Learning Approach
+PY  - 2025
+AB  - To achieve timely and accurate prediction of dengue fever cases, this study introduces a one-dimensional convolutional neural network (Conv1D) to facilitate the extraction of local temporal features, and designs a dual attention mechanism to achieve synergistic enhancement between meteorologically sensitive factors and critical epidemic phases. Four different long short-term memory (LSTM)-based models using lagged meteorological features were developed for dengue fever prediction: LSTM, Conv1D-LSTM using one-dimensional convolutional neural network, CT-LSTM with dual attention mechanism, and Conv1D-CT-LSTM using both. These models are trained and evaluated on weekly dengue case data from San Juan spanning 1991 to 2008, using various meteorological variables, lagged meteorological data, and historical dengue case data to predict subsequent weekly case counts. Experimental results demonstrate that models incorporating lagged meteorological features generally outperform those without such features, with further performance improvements observed when using Conv1D and the dual attention mechanism. Among these, the Conv1D-CTLSTM model using lagged meteorological features performed best, with $\mathrm{R}^{2}$, MAE, and MSE scores of 0.88, 6.77, and 122.60, respectively. Overall, the Conv1D-CT-LSTM model proved to be the most effective for predicting dengue fever cases in San Juan.
+DO  - 10.1109/EIECS67708.2025.11283598
+N1  - R0196
+ER  - 
+
+TY  - JOUR
+AU  - Mills, Cathal
+AU  - Falconi-Agapito, Francesca
+AU  - Carrera, Jean-Paul
+AU  - Munayco, Cesar
+AU  - Kraemer, Moritz U. G.
+AU  - Donnelly, Christl A.
+TI  - Multi-model approach to understand and predict past and future dengue epidemic dynamics.
+PY  - 2025
+JO  - Royal Society open science
+AB  - Understanding the past, current and future dynamics of dengue epidemics is challenging yet increasingly important for global public health. Using data from northern Peru across 2010-2021, we introduce a multi-model approach that integrates new and existing techniques for understanding and predicting dengue epidemics. Using wavelet analyses, we unveil spatio-temporal patterns and estimate space-varying epidemic drivers across shorter and longer dengue cycles, while our Bayesian hierarchical model allows us to quantify the timing, structure and intensity of such climatic influences. For forecasting, as a single model is generally suboptimal, we introduce trained and untrained probabilistic ensembles. In settings that mirror real-world implementations, we develop climate-informed and covariate-free deep learning forecasting models involving foundational time series, temporal convolutional networks and conformal inference. We complement modern techniques with statistically principled training, assessment and benchmarking of ensembles, alongside interpretable metrics for outbreak detection to disseminate outputs with communities and public health authorities. Our ensembles generally outperformed individual models across space and time. Looking forward, whether the public health objective is to learn from the past and/or to predict future dengue epidemic dynamics, our multi-model approach can be used to inform the decision-making and planning of public health authorities.
+DO  - 10.1098/rsos.241870
+N1  - R0203
+ER  - 
+
+TY  - JOUR
+AU  - da Silva, Sidney T.
+AU  - Gabrick, Enrique C.
+AU  - Protachevicz, Paulo R.
+AU  - Iarosz, Kelly C.
+AU  - Caldas, Ibere L.
+AU  - Batista, Antonio M.
+AU  - Kurths, Juergen
+TI  - When climate variables improve the dengue forecasting: a machine learning approach
+PY  - 2025
+JO  - EUROPEAN PHYSICAL JOURNAL-SPECIAL TOPICS
+AB  - Dengue is a viral vector-borne infectious disease that affects many countries worldwide, infecting around 390 million people per year. The main outbreaks occur in subtropical and tropical countries. We, therefore, study here the influence of climate on dengue. In particular, we consider dengue and meteorological data from Natal (2016-2019), Brazil, Iquitos (2001-2012), Peru, and Barranquilla (2011-2016), Colombia. For the analysis and simulations, we apply machine learning (ML) techniques, especially the random forest (RF) algorithm. We utilize dengue disease cases and climate data delayed by up to one week to forecast the cases of dengue. In addition, regarding as feature in the ML technique, we analyze three possibilities: only dengue cases (D); climate and dengue cases (CD); humidity and dengue cases (HD). Depending on the city, our results show that the climate data can improve or not the forecast. For instance, for Natal, the case D induces a better forecast. For Iquitos, it is better to use all the climate variables. Nonetheless, for Barranquilla, the forecast is better, when we include cases and humidity data. Another important result is that each city has an optimal region based on the training length. For Natal, when we use more than 64% and less than 80% of the time series for training, we obtain results with correlation coefficients (r) among 0.917 and 0.949 and mean absolute errors (MAE) among 57.783 and 71.768 for the D case in forecasting. The optimal range for Iquitos is obtained when 79% up to 88% of the time series is considered for training. For this case, the best case is CD, having a minimum r equal to 0.850 and maximum 0.887, while values of MAE oscillate among 2.780 and 4.156. For Barranquilla, the optimal range occurs between 72% until 82% of length training. In this case, the better approach is HD, where the measures exhibit a minimum r equal to 0.942 and maximum 0.953, while the minimum and maximum MAE vary among 6.085 and 6.669. We show that the forecast of dengue cases is a challenging problem and climate variables do not always help. However, when we include the mentioned climate variables, the most important one is the humidity.
+DO  - 10.1140/epjs/s11734-024-01201-7
+N1  - R0227
+ER  - 
+
+TY  - JOUR
+AU  - Sebastianelli, Alessandro
+AU  - Spiller, Dario
+AU  - Carmo, Raquel
+AU  - Wheeler, James
+AU  - Nowakowski, Artur
+AU  - Jacobson, Ludmilla Viana
+AU  - Kim, Dohyung
+AU  - Barlevi, Hanoch
+AU  - Cordero, Zoraya El Raiss
+AU  - Colón-González, Felipe J.
+AU  - Lowe, Rachel
+AU  - Ullo, Silvia Liberata
+AU  - Schneider,
+TI  - A reproducible ensemble machine learning approach to forecast dengue outbreaks.
+PY  - 2024
+JO  - Scientific reports
+AB  - Dengue fever, a prevalent and rapidly spreading arboviral disease, poses substantial public health and economic challenges in tropical and sub-tropical regions worldwide. Predicting infectious disease outbreaks on a countrywide scale is complex due to spatiotemporal variations in dengue incidence across administrative areas. To address this, we propose a machine learning ensemble model for forecasting the dengue incidence rate (DIR) in Brazil, with a focus on the population under 19 years old. The model integrates spatial and temporal information, providing one-month-ahead DIR estimates at the state level. Comparative analyses with a dummy model and ablation studies demonstrate the ensemble model's qualitative and quantitative efficacy across the 27 Brazilian Federal Units. Furthermore, we showcase the transferability of this approach to Peru, another Latin American country with differing epidemiological characteristics. This timely forecast system can aid local governments in implementing targeted control measures. The study advances climate services for health by identifying factors triggering dengue outbreaks in Brazil and Peru, emphasizing collaborative efforts with intergovernmental organizations and public health institutions. The innovation lies not only in the algorithms themselves but in their application to a domain marked by data scarcity and operational scalability challenges. We bridge the gap by integrating well-curated ground data with advanced analytical methods, addressing a significant deficiency in current practices. The successful transfer of the model to Peru and its consistent performance during the 2019 outbreak in Brazil showcase its scalability and practical application. While acknowledging limitations in handling extreme values, especially in regions with low DIR, our approach excels where accurate predictions are critical. The study not only contributes to advancing DIR forecasting but also represents a paradigm shift in integrating advanced analytics into public health operational frameworks. This work, driven by a collaborative spirit involving intergovernmental organizations and public health institutions, sets a precedent for interdisciplinary collaboration in addressing global health challenges. It not only enhances our understanding of factors triggering dengue outbreaks but also serves as a template for the effective implementation of advanced analytical methods in public health.
+DO  - 10.1038/s41598-024-52796-9
+N1  - R0235
+ER  - 
+
+TY  - JOUR
+AU  - Medina, Ever
+AU  - Cogollo, Myladis R.
+AU  - González-Parra, Gilberto
+TI  - Prescriptive temporal modeling approach using climate variables to forecast dengue incidence in Córdoba, Colombia.
+PY  - 2024
+JO  - Mathematical biosciences and engineering : MBE
+AB  - We present a modeling strategy to forecast the incidence rate of dengue in the department of Córdoba, Colombia, thereby considering the effect of climate variables. A Seasonal Autoregressive Integrated Moving Average model with exogenous variables (SARIMAX) model is fitted under a cross-validation approach, and we examine the effect of the exogenous variables on the performance of the model. This study uses data of dengue cases, precipitation, and relative humidity reported from years 2007 to 2021. We consider three configurations of sizes training set-test set: 182-13,189-6, and 192-3. The results support the theory of the relationship between precipitation, relative humidity, and dengue incidence rate. We find that the performance of the models improves when the time series models are previously adjusted for each of the exogenous variables, and their forecasts are used to determine the future values of the dengue incidence rate. Additionally, we find that the configurations 189-6 and 192-3 present the most consistent results with regard to the model's performance in the training and test data sets.
+DO  - 10.3934/mbe.2024341
+N1  - R0278
+ER  - 
+
+TY  - JOUR
+AU  - R. Saldanha
+AU  - V. Ribeiro
+AU  - E. H. M. Pena
+AU  - M. Pedroso
+AU  - R. Akbarinia
+AU  - P. Valduriez
+AU  - F. Porto
+TI  - Subset Models for Multivariate Time Series Forecast
+PY  - 2024
+AB  - Multivariate time series find extensive applications in conjunction with machine learning methodologies for scenario forecasting across various domains. Nevertheless, certain domains exhibit inherent complexities and diversities, which detrimentally impact the predictive efficacy of global models. This ongoing study introduces a Subset Modeling Framework designed to acknowledge the inherent diversity within a domain’s multivariate space. Comparative assessments between subset models and global models are conducted in terms of performance, revealing compelling findings and suggesting the potential for further exploration and refinement of this novel framework.
+DO  - 10.1109/ICDEW61823.2024.00016
+N1  - R0290
+ER  - 
+
+TY  - JOUR
+AU  - M. D. Waseem
+AU  - A. Nawaz
+AU  - U. Rasheed
+AU  - A. Raza
+AU  - M. O. Albarka
+TI  - A Time Series Regression-based Model for Predicting the Spread of Dengue Disease
+PY  - 2023
+AB  - Dengue is a viral disease, spread by the mosquito species Aedes aegypti. According to WHO, every year 100-400 million cases of dengue infection are reported worldwide. Dengue mosquito inhibits in tropical regions and proliferates in wet climate conditions. Since it is impossible to clean those regions from the mosquito completely, therefore an analysis of the relationship between different climatic factors and dengue spread is important to forecast the number of cases ahead so that precautionary measures can be taken beforehand to minimize the disease spread. Specifically, to predict the spread we employed two prominent time series models i.e. SARIMA and SARIMAX on the publicly available DengAI dataset. The performance of the models is evaluated by using Mean Absolute Error (MAE), achieving MAE scores of 27.39 and 25.52 on SARIMA and SARIMAX respectively, which reveals that our proposed methodology outperformed other existing machine learning methods.
+DO  - 10.1109/ICRAI57502.2023.10089545
+N1  - R0302
+ER  - 
+
+TY  - JOUR
+AU  - Panja, Madhurima
+AU  - Chakraborty, Tanujit
+AU  - Nadim, Sk Shahid
+AU  - Ghosh, Indrajit
+AU  - Kumar, Uttam
+AU  - Liu, Nan
+TI  - An ensemble neural network approach to forecast Dengue outbreak based on climatic condition
+PY  - 2023
+JO  - CHAOS SOLITONS & FRACTALS
+AB  - Dengue fever is a virulent disease spreading over 100 tropical and subtropical countries in Africa, the Americas, and Asia. This arboviral disease affects around 400 million people globally, severely distressing the healthcare systems. The unavailability of a specific drug and ready-to-use vaccine makes the situation worse. Hence, policymakers must rely on early warning systems to control intervention-related decisions. Forecasts routinely provide critical information for dangerous epidemic events. However, the available forecasting models (e.g., weather-driven mechanistic, statistical time series, and machine learning models) lack a clear understanding of different components to improve prediction accuracy and often provide unstable and unreliable forecasts. This study proposes an ensemble wavelet neural network with exogenous factor(s) (XEWNet) model that can produce reliable estimates for dengue outbreak prediction for three geographical regions, namely San Juan, Iquitos, and Ahmedabad. The proposed XEWNet model is flexible and can easily incorporate exogenous climate variable(s) confirmed by statistical causality tests in its scalable framework. The proposed model is an integrated approach that uses wavelet transformation into an ensemble neural network framework that helps in generating more reliable long-term forecasts. The proposed XEWNet allows complex non-linear relationships between the dengue incidence cases and rainfall; however, mathematically interpretable, fast in execution, and easily comprehensible. The proposal's competitiveness is measured using computational experiments based on various statistical metrics and several statistical comparison tests. In comparison with statistical, machine learning, and deep learning methods, our proposed XEWNet performs better in 75% of the cases for short-term and long-term forecasting of dengue incidence.
+DO  - 10.1016/j.chaos.2023.113124
+N1  - R0306
+ER  - 
+
+TY  - JOUR
+AU  - Barboza, Luis A.
+AU  - Chou-Chen, Shu-Wei
+AU  - Vásquez, Paola
+AU  - García, Yury E.
+AU  - Calvo, Juan G.
+AU  - Hidalgo, Hugo G.
+AU  - Sanchez, Fabio
+TI  - Assessing dengue fever risk in Costa Rica by using climate variables and machine learning techniques.
+PY  - 2023
+JO  - PLoS neglected tropical diseases
+AB  - Dengue fever is a vector-borne disease affecting millions yearly, mostly in tropical and subtropical countries. Driven mainly by social and environmental factors, dengue incidence and geographical expansion have increased in recent decades. Therefore, understanding how climate variables drive dengue outbreaks is challenging and a problem of interest for decision-makers that could aid in improving surveillance and resource allocation. Here, we explore the effect of climate variables on relative dengue risk in 32 cantons of interest for public health authorities in Costa Rica. Relative dengue risk is forecast using a Generalized Additive Model for location, scale, and shape and a Random Forest approach. Models use a training period from 2000 to 2020 and predicted climatic variables obtained with a vector auto-regressive model. Results show reliable projections, and climate variables predictions allow for a prospective instead of a retrospective study.
+DO  - 10.1371/journal.pntd.0011047
+N1  - R0309
+ER  - 
+
+TY  - JOUR
+AU  - Bogado Machuca, Juan Vicente
+AU  - Stalder Díaz, Diego Herbin
+AU  - Schaerer Serra, Christian Emilio
+TI  - Cluster-based LSTM models to improve Dengue cases forecast
+PY  - 2023
+JO  - CLEI electronic journal
+AB  - Public health problems such as dengue fever need accurate forecasts so governments can take effective preventive measures. Deep learning (DL) and machine learning have become increasingly popular as the volume of data increases continuously. Nevertheless, performing accurate predictions in areas with fewer cases can be challenging. When we apply DL models using long short-term memory (LSTM) in different cities considering weekly dengue incidence and climate, some models may present heterogeneous behaviours and poor accuracy because of the need for more data. To mitigate this problem, clustering analysis across time series is performed based on scores to measure the clustering quality in 217 Paraguayan cities. First, we compare the raw and feature-based clustering techniques considering several metrics.Our results indicate that hierarchical clustering combined with Spearman correlation is the most appropriate approach. Finally, several LSTM models built using clustering results were compared. The main contribution of this work is a technique that can improve the performance of time series models that combine information from similar time series and weather data.
+DO  - 10.19153/cleiej.26.1.4
+N1  - R0311
+ER  - 
+
+TY  - JOUR
+AU  - M. Lydia
+AU  - G. E. P. Kumar
+AU  - A. Ravichandran
+AU  - G. B. Martins
+AU  - L. A. Passos
+AU  - J. P. Papa
+TI  - Temporal Dengue Outbreak Prediction from Climatic Variables using Finite Element Machines for Regression
+PY  - 2023
+AB  - The global burden of dengue, a mosquito-borne viral infection, has alarmingly increased in recent decades. The rise in disease occurrence is mainly attributed to changes in the climate, human ecology, globalization, and demography. In such a scenario, an accurate prediction of a dengue outbreak is essential to reduce the morbidity rate significantly. This paper employs two classes of autoregressive models for dengue forecasting and a recently proposed approach called Finite Element Machine for Regression (FEMaR). It also proposes a variant, namely FEMaR-KD, which allows the exploration of k-approximate nearest neighbors to interpolate data points based on k -neighborhood instead of the whole dataset. Such models are built considering environmental parameters, which denote one of the main determinants for infection occurrence. Finally, the proposed models’ performance is assessed over two distinct datasets, considering differing spatial scales and regions. Results show that FEMaR obtained a mean absolute error up to 51% smaller than the autoregressive models considering univariate scenarios, and a root mean squared error up to 63% smaller regarding the univariate models.
+DO  - 10.1109/IWSSIP58668.2023.10180266
+N1  - R0340
+ER  - 
+
+TY  - JOUR
+AU  - Deb, Soudeep
+AU  - Deb, Sougata
+TI  - An ensemble method for early prediction of dengue outbreak
+PY  - 2022
+JO  - JOURNAL OF THE ROYAL STATISTICAL SOCIETY SERIES A-STATISTICS IN SOCIETY
+AB  - Predicting a dengue outbreak well ahead of time is of immense importance to healthcare personnel. In this study, an ensemble method based on three different types of models has been developed. The proposed approach combines negative binomial regression, autoregressive integrated moving average model and generalized linear autoregressive moving average model through a vector autoregressive structure. Lagged values of terrain and climate covariates are used as regressors. Real-life application using data from San Juan and Iquitos shows that the proposed method usually incurs a mean absolute error of less than 10 cases when the predictions are made 8 weeks in advance. Furthermore, using model confidence set procedure, it is also shown that the proposed method always outperforms other candidate models in providing early prediction for a dengue epidemic.
+DO  - 10.1111/rssa.12714
+N1  - R0354
+ER  - 
+
+TY  - JOUR
+AU  - Li, Zhichao
+TI  - Forecasting Weekly Dengue Cases by Integrating Google Earth Engine-Based Risk Predictor Generation and Google Colab-Based Deep Learning Modeling in Fortaleza and the Federal District, Brazil.
+PY  - 2022
+JO  - International journal of environmental research and public health
+AB  - Efficient and accurate dengue risk prediction is an important basis for dengue prevention and control, which faces challenges, such as downloading and processing multi-source data to generate risk predictors and consuming significant time and computational resources to train and validate models locally. In this context, this study proposed a framework for dengue risk prediction by integrating big geospatial data cloud computing based on Google Earth Engine (GEE) platform and artificial intelligence modeling on the Google Colab platform. It enables defining the epidemiological calendar, delineating the predominant area of dengue transmission in cities, generating the data of risk predictors, and defining multi-date ahead prediction scenarios. We implemented the experiments based on weekly dengue cases during 2013-2020 in the Federal District and Fortaleza, Brazil to evaluate the performance of the proposed framework. Four predictors were considered, including total rainfall (R(sum)), mean temperature (T(mean)), mean relative humidity (RH(mean)), and mean normalized difference vegetation index (NDVI(mean)). Three models (i.e., random forest (RF), long-short term memory (LSTM), and LSTM with attention mechanism (LSTM-ATT)), and two modeling scenarios (i.e., modeling with or without dengue cases) were set to implement 1- to 4-week ahead predictions. A total of 24 models were built, and the results showed in general that LSTM and LSTM-ATT models outperformed RF models; modeling could benefit from using historical dengue cases as one of the predictors, and it makes the predicted curve fluctuation more stable compared with that only using climate and environmental factors; attention mechanism could further improve the performance of LSTM models. This study provides implications for future dengue risk prediction in terms of the effectiveness of GEE-based big geospatial data processing for risk predictor generation and Google Colab-based risk modeling and presents the benefits of using historical dengue data as one of the input features and the attention mechanism for LSTM modeling.
+DO  - 10.3390/ijerph192013555
+N1  - R0375
+ER  - 
+
+TY  - JOUR
+AU  - Li, Zhichao
+AU  - Gurgel, Helen
+AU  - Xu, Lei
+AU  - Yang, Linsheng
+AU  - Dong, Jinwei
+TI  - Improving Dengue Forecasts by Using Geospatial Big Data Analysis in Google Earth Engine and the Historical Dengue Information-Aided Long Short Term Memory Modeling.
+PY  - 2022
+JO  - Biology
+AB  - Timely and accurate forecasts of dengue cases are of great importance for guiding disease prevention strategies, but still face challenges from (1) time-effectiveness due to time-consuming satellite data downloading and processing, (2) weak spatial representation capability due to data dependence on administrative unit-based statistics or weather station-based observations, and (3) stagnant accuracy without the application of historical case information. Geospatial big data, cloud computing platforms (e.g., Google Earth Engine, GEE), and emerging deep learning algorithms (e.g., long short term memory, LSTM) provide new opportunities for advancing these efforts. Here, we focused on the dengue epidemics in the urban agglomeration of the Federal District of Brazil (FDB) during 2007-2019. A new framework was proposed using geospatial big data analysis in the Google Earth Engine (GEE) platform and long short term memory (LSTM) modeling for dengue case forecasts over an epidemiological week basis. We first defined a buffer zone around an impervious area as the main area of dengue transmission by considering the impervious area as a human-dominated area and used the maximum distance of the flight range of Aedes aegypti and Aedes albopictus as a buffer distance. Those zones were used as units for further attribution analyses of dengue epidemics by aggregating the pixel values into the zones. The near weekly composite of potential driving factors was generated in GEE using the epidemiological weeks during 2007-2019, from the relevant geospatial data with daily or sub-daily temporal resolution. A multi-step-ahead LSTM model was used, and the time-differenced natural log-transformed dengue cases were used as outcomes. Two modeling scenarios (with and without historical dengue cases) were set to examine the potential of historical information on dengue forecasts. The results indicate that the performance was better when historical dengue cases were used and the 5-weeks-ahead forecast had the best performance, and the peak of a large outbreak in 2019 was accurately forecasted. The proposed framework in this study suggests the potential of the GEE platform, the LSTM algorithm, as well as historical information for dengue risk forecasting, which can easily be extensively applied to other regions or globally for timely and practical dengue forecasts.
+DO  - 10.3390/biology11020169
+N1  - R0378
+ER  - 
+
+TY  - JOUR
+AU  - Roster, Kirstin
+AU  - Connaughton, Colm
+AU  - Rodrigues, Francisco A.
+TI  - Machine-Learning-Based Forecasting of Dengue Fever in Brazilian Cities Using Epidemiologic and Meteorological Variables.
+PY  - 2022
+JO  - American journal of epidemiology
+AB  - Dengue is a serious public health concern in Brazil and globally. In the absence of a universal vaccine or specific treatments, prevention relies on vector control and disease surveillance. Accurate and early forecasts can help reduce the spread of the disease. In this study, we developed a model for predicting monthly dengue cases in Brazilian cities 1 month ahead, using data from 2007-2019. We compared different machine learning algorithms and feature selection methods using epidemiologic and meteorological variables. We found that different models worked best in different cities, and a random forests model trained on monthly dengue cases performed best overall. It produced lower errors than a seasonal naive baseline model, gradient boosting regression, a feed-forward neural network, or support vector regression. For each city, we computed the mean absolute error between predictions and true monthly numbers of dengue cases on the test data set. The median error across all cities was 12.2 cases. This error was reduced to 11.9 when selecting the optimal combination of algorithm and input features for each city individually. Machine learning and especially decision tree ensemble models may contribute to dengue surveillance in Brazil, as they produce low out-of-sample prediction errors for a geographically diverse set of cities.
+DO  - 10.1093/aje/kwac090
+N1  - R0380
+ER  - 
+
+TY  - JOUR
+AU  - R. Aleixo
+AU  - F. Kon
+AU  - R. Rocha
+AU  - M. S. Camargo
+AU  - R. Y. De Camargo
+TI  - Predicting Dengue Outbreaks with Explainable Machine Learning
+PY  - 2022
+AB  - Seasonal infectious diseases, such as dengue, have been causing great losses in many countries around the world in terms of deaths, quality of life, and economic burden. In Brazil, this is relevant not only in large cities such as Rio de Janeiro and São Paulo but, according to the Ministry of Health, in another 500 cities throughout the country. Predicting the occurrence of diseases, such as dengue bursts, can be a valuable instrument for public health management as health officials can better prepare and redirect resources to the affected areas. In this paper, we present an explainable machine learning model to forecast the number of dengue occurrences in a large metropolis, Rio de Janeiro. We focus on explainable models, which provide health authorities with the reasons for outbreak predictions, allowing them to plan their actions accordingly. We trained a gradient boosting decision tree algorithm (CatBoost) with data from the National System of Information on Notifiable Diseases (SINAN), weather data, and socio-demographic data from The Brazilian Institute of Geoaraphy and Statistics (IBGE).
+DO  - 10.1109/CCGrid54584.2022.00114
+N1  - R0390
+ER  - 
+
+TY  - JOUR
+AU  - Koplewitz, Gal
+AU  - Lu, Fred
+AU  - Clemente, Leonardo
+AU  - Buckee, Caroline
+AU  - Santillana, Mauricio
+TI  - Predicting dengue incidence leveraging internet-based data sources. A case study in 20 cities in Brazil.
+PY  - 2022
+JO  - PLoS neglected tropical diseases
+AB  - The dengue virus affects millions of people every year worldwide, causing large epidemic outbreaks that disrupt people's lives and severely strain healthcare systems. In the absence of a reliable vaccine against dengue or an effective treatment to manage the illness in humans, most efforts to combat dengue infections have focused on preventing its vectors, mainly the Aedes aegypti mosquito, from flourishing across the world. These mosquito-control strategies need reliable disease activity surveillance systems to be deployed. Despite significant efforts to estimate dengue incidence using a variety of data sources and methods, little work has been done to understand the relative contribution of the different data sources to improved prediction. Additionally, scholarship on the topic had initially focused on prediction systems at the national- and state-levels, and much remains to be done at the finer spatial resolutions at which health policy interventions often occur. We develop a methodological framework to assess and compare dengue incidence estimates at the city level, and evaluate the performance of a collection of models on 20 different cities in Brazil. The data sources we use towards this end are weekly incidence counts from prior years (seasonal autoregressive terms), weekly-aggregated weather variables, and real-time internet search data. We find that both random forest-based models and LASSO regression-based models effectively leverage these multiple data sources to produce accurate predictions, and that while the performance between them is comparable on average, the former method produces fewer extreme outliers, and can thus be considered more robust. For real-time predictions that assume long delays (6-8 weeks) in the availability of epidemiological data, we find that real-time internet search data are the strongest predictors of dengue incidence, whereas for predictions that assume short delays (1-3 weeks), in which the error rate is halved (as measured by relative RMSE), short-term and seasonal autocorrelation are the dominant predictors. Despite the difficulties inherent to city-level prediction, our framework achieves meaningful and actionable estimates across cities with different demographic, geographic and epidemic characteristics.
+DO  - 10.1371/journal.pntd.0010071
+N1  - R0392
+ER  - 
+
+TY  - JOUR
+AU  - Souza, Caio
+AU  - Maia, Pedro
+AU  - Stolerman, Lucas M.
+AU  - Rolla, Vitor
+AU  - Velho, Luiz
+TI  - Predicting dengue outbreaks in Brazil with manifold learning on climate data
+PY  - 2022
+JO  - EXPERT SYSTEMS WITH APPLICATIONS
+AB  - Tropical countries face urgent public health challenges regarding epidemic control of Dengue. Since effective vector-control efforts depend on the timing in which public policies take place, there is an enormous demand for accurate prediction tools. In this work, we improve upon a recent approach of coarsely predicting outbreaks in Brazilian urban centers based solely on their yearly climate data. Our methodological advancements encompass a judicious choice of data pre-processing steps and usage of modern computational techniques from signal-processing and manifold learning. Altogether, our results improved earlier prediction accuracy scores from 0.72 to 0.80, solidifying manifold learning on climate data alone as a viable way to make (coarse) dengue outbreak prediction in large urban centers. Ultimately, this approach has the potential of radically simplifying the data required to do outbreak analysis, as municipalities with limited public health funds may not monitor a large number of features needed for more extensive machine learning approaches.
+DO  - 10.1016/j.eswa.2021.116324
+N1  - R0393
+ER  - 
+
+TY  - JOUR
+AU  - Ferdousi, Tanvir
+AU  - Cohnstaedt, Lee W.
+AU  - Scoglio, Caterina M.
+TI  - A Windowed Correlation-Based Feature Selection Method to Improve Time Series Prediction of Dengue Fever Cases
+PY  - 2021
+JO  - IEEE ACCESS
+AB  - The performance of data-driven models depends on training samples. For accurately predicting dengue fever cases, historical incidence data are inadequate in many locations. This work aims to enhance temporally limited dengue case data by methodological addition of epidemically relevant case data from nearby locations as predictors (features). A novel framework is presented for windowing incidence data and computing time-shifted correlation-based metrics to quantify feature relevance. The framework ranks incidence data of adjacent locations around a target by combining metrics based on correlation, spatial distance, and local prevalence. Recurrent neural network models achieve up to 33.6% accuracy improvement on average using the proposed method. These models achieve mean absolute error (MAE) values as low as 0.128 on [0, 1] normalized incidence data for a municipality with the highest dengue prevalence in Brazil's Espirito Santo. When predicting aggregate cases over geographical ecoregions, the models improve by 16.5%, using only 6.5% of ranked incidence data. This paper also presents two correlation window allocation methods: fixed-size and outbreak detection. Both perform comparably well, although the outbreak detection method uses less data for computations. The proposed framework is generalized, and it can be used to improve time-series predictions of many spatiotemporal datasets.
+DO  - 10.1109/ACCESS.2021.3120309
+N1  - R0405
+ER  - 
+
+TY  - JOUR
+AU  - McGough, Sarah F.
+AU  - Clemente, Leonardo
+AU  - Kutz, J. Nathan
+AU  - Santillana, Mauricio
+TI  - A dynamic, ensemble learning approach to forecast dengue fever epidemic years in Brazil using weather and population susceptibility cycles.
+PY  - 2021
+JO  - Journal of the Royal Society, Interface
+AB  - Transmission of dengue fever depends on a complex interplay of human, climate and mosquito dynamics, which often change in time and space. It is well known that its disease dynamics are highly influenced by multiple factors including population susceptibility to infection as well as by microclimates: small-area climatic conditions which create environments favourable for the breeding and survival of mosquitoes. Here, we present a novel machine learning dengue forecasting approach, which, dynamically in time and space, identifies local patterns in weather and population susceptibility to make epidemic predictions at the city level in Brazil, months ahead of the occurrence of disease outbreaks. Weather-based predictions are improved when information on population susceptibility is incorporated, indicating that immunity is an important predictor neglected by most dengue forecast models. Given the generalizability of our methodology to any location or input data, it may prove valuable for public health decision-making aimed at mitigating the effects of seasonal dengue outbreaks in locations globally.
+DO  - 10.1098/rsif.2020.1006
+N1  - R0406
+ER  - 
+
+TY  - JOUR
+AU  - Navarro Valencia, Vicente
+AU  - Díaz, Yamilka
+AU  - Pascale, Juan Miguel
+AU  - Boni, Maciej F.
+AU  - Sanchez-Galan, Javier E.
+TI  - Assessing the Effect of Climate Variables on the Incidence of Dengue Cases in the Metropolitan Region of Panama City.
+PY  - 2021
+JO  - International journal of environmental research and public health
+AB  - The present analysis uses the data of confirmed incidence of dengue cases in the metropolitan region of Panama from 1999 to 2017 and climatic variables (air temperature, precipitation, and relative humidity) during the same period to determine if there exists a correlation between these variables. In addition, we compare the predictive performance of two regression models (SARIMA, SARIMAX) and a recurrent neural network model (RNN-LSTM) on the dengue incidence series. For this data from 1999-2014 was used for training and the three subsequent years of incidence 2015-2017 were used for prediction. The results show a correlation coefficient between the climatic variables and the incidence of dengue were low but statistical significant. The RMSE and MAPE obtained for the SARIMAX and RNN-LSTM models were 25.76, 108.44 and 26.16, 59.68, which suggest that any of these models can be used to predict new outbreaks. Although, it can be said that there is a limited role of climatic variables in the outputs the models. The value of this work is that it helps understand the behaviour of cases in a tropical setting as is the Metropolitan Region of Panama City, and provides the basis needed for a much needed early alert system for the region.
+DO  - 10.3390/ijerph182212108
+N1  - R0416
+ER  - 
+
+TY  - JOUR
+AU  - Nova, Nicole
+AU  - Deyle, Ethan R.
+AU  - Shocket, Marta S.
+AU  - MacDonald, Andrew J.
+AU  - Childs, Marissa L.
+AU  - Rypdal, Martin
+AU  - Sugihara, George
+AU  - Mordecai, Erin A.
+TI  - Susceptible host availability modulates climate effects on dengue dynamics.
+PY  - 2021
+JO  - Ecology letters
+AB  - Experiments and models suggest that climate affects mosquito-borne disease transmission. However, disease transmission involves complex nonlinear interactions between climate and population dynamics, which makes detecting climate drivers at the population level challenging. By analysing incidence data, estimated susceptible population size, and climate data with methods based on nonlinear time series analysis (collectively referred to as empirical dynamic modelling), we identified drivers and their interactive effects on dengue dynamics in San Juan, Puerto Rico. Climatic forcing arose only when susceptible availability was high: temperature and rainfall had net positive and negative effects respectively. By capturing mechanistic, nonlinear and context-dependent effects of population susceptibility, temperature and rainfall on dengue transmission empirically, our model improves forecast skill over recent, state-of-the-art models for dengue incidence. Together, these results provide empirical evidence that the interdependence of host population susceptibility and climate drives dengue dynamics in a nonlinear and complex, yet predictable way.
+DO  - 10.1111/ele.13652
+N1  - R0453
+ER  - 
+
+TY  - JOUR
+AU  - Appice, Annalisa
+AU  - Gel, Yulia R.
+AU  - Iliev, Iliyan
+AU  - Lyubchich, Vyacheslav
+AU  - Malerba, Donato
+TI  - A Multi-Stage Machine Learning Approach to Predict Dengue Incidence: A Case Study in Mexico
+PY  - 2020
+JO  - IEEE ACCESS
+AB  - The mosquito-borne dengue fever is a major public health problem in tropical countries, where it is strongly conditioned by climate factors such as temperature. In this paper, we formulate a holistic machine learning strategy to analyze the temporal dynamics of temperature and dengue data and use this knowledge to produce accurate predictions of dengue, based on temperature on an annual scale. The temporal dynamics are extracted from historical data by utilizing a novel multi-stage combination of auto-encoding, window-based data representation and trend-based temporal clustering. The prediction is performed with a trend association-based nearest neighbour predictor. The effectiveness of the proposed strategy is evaluated in a case study that comprises the number of dengue and dengue hemorrhagic fever cases collected over the period 1985 & x2013;2010 in 32 federal states of Mexico. The empirical study proves the viability of the proposed strategy and confirms that it outperforms various state-of-the-art competitor methods formulated both in regression and in time series forecasting analysis.
+DO  - 10.1109/ACCESS.2020.2980634
+N1  - R0460
+ER  - 
+
+TY  - JOUR
+AU  - Vásquez, Paola
+AU  - Loría, Antonio
+AU  - Sanchez, Fabio
+AU  - Barboza, Luis A.
+TI  - Climate-driven statistical models as effective predictors of local dengue incidence in costa rica: a generalized additive model and random forest approach
+PY  - 2020
+JO  - Revista de Matemática Teoría y Aplicaciones
+AB  - Abstract Climate has been an important factor in shaping the distribution and incidence of dengue cases in tropical and subtropical countries. In Costa Rica, a tropical country with distinctive micro-climates, dengue has been endemic since its introduction in 1993, inflicting substantial economic, social, and public health repercussions. Using the number of dengue reported cases and climate data from 2007-2017, we fitted a prediction model applying a Generalized Additive Model (GAM) and Random Forest (RF) approach, which allowed us to retrospectively predict the relative risk of dengue in five climatological diverse municipalities around the country.
+DO  - 10.15517/rmta.v27i1.39931
+N1  - R0465
+ER  - 
+
+TY  - JOUR
+AU  - Mussumeci, Elisa
+AU  - Codeço Coelho, Flávio
+TI  - Large-scale multivariate forecasting models for Dengue - LSTM versus random forest regression.
+PY  - 2020
+JO  - Spatial and spatio-temporal epidemiology
+AB  - Effective management of seasonal diseases such as dengue fever depends on timely deployment of control measures prior to the high transmission season. As the epidemic season fluctuates from year to year, the availability of accurate forecasts of incidence can be decisive in attaining control of such diseases. Obtaining such forecasts from classical time series models has proven a difficult task. Here we propose and compare machine learning models incorporating feature selection,such as LASSO and Random Forest regression with LSTM a deep recurrent neural network, to forecast weekly dengue incidence in 790 cities in Brazil. We use multivariate time-series as predictors and also utilize time series from similar cities to capture the spatial component of disease transmission. The LSTM recurrent neural network model attained the highest performance in predicting future incidence on dengue in cities of different sizes.
+DO  - 10.1016/j.sste.2020.100372
+N1  - R0487
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Naizhuo
+AU  - Charland, Katia
+AU  - Carabali, Mabel
+AU  - Nsoesie, Elaine O.
+AU  - Maheu-Giroux, Mathieu
+AU  - Rees, Erin
+AU  - Yuan, Mengru
+AU  - Garcia Balaguera, Cesar
+AU  - Jaramillo Ramirez, Gloria
+AU  - Zinszer, Kate
+TI  - Machine learning and dengue forecasting: Comparing random forests and artificial neural networks for predicting dengue burden at national and sub-national scales in Colombia.
+PY  - 2020
+JO  - PLoS neglected tropical diseases
+AB  - The robust estimate and forecast capability of random forests (RF) has been widely recognized, however this ensemble machine learning method has not been widely used in mosquito-borne disease forecasting. In this study, two sets of RF models were developed at the national (pooled department-level data) and department level in Colombia to predict weekly dengue cases for 12-weeks ahead. A pooled national model based on artificial neural networks (ANN) was also developed and used as a comparator to the RF models. The various predictors included historic dengue cases, satellite-derived estimates for vegetation, precipitation, and air temperature, as well as population counts, income inequality, and education. Our RF model trained on the pooled national data was more accurate for department-specific weekly dengue cases estimation compared to a local model trained only on the department's data. Additionally, the forecast errors of the national RF model were smaller to those of the national pooled ANN model and were increased with the forecast horizon increasing from one-week-ahead (mean absolute error, MAE: 9.32) to 12-weeks ahead (MAE: 24.56). There was considerable variation in the relative importance of predictors dependent on forecast horizon. The environmental and meteorological predictors were relatively important for short-term dengue forecast horizons while socio-demographic predictors were relevant for longer-term forecast horizons. This study demonstrates the potential of RF in dengue forecasting with a feasible approach of using a national pooled model to forecast at finer spatial scales. Furthermore, including sociodemographic predictors is likely to be helpful in capturing longer-term dengue trends.
+DO  - 10.1371/journal.pntd.0008056
+N1  - R0489
+ER  - 
+
+TY  - JOUR
+AU  - Benedum, Corey M.
+AU  - Shea, Kimberly M.
+AU  - Jenkins, Helen E.
+AU  - Kim, Louis Y.
+AU  - Markuzon, Natasha
+TI  - Weekly dengue forecasts in Iquitos, Peru; San Juan, Puerto Rico; and Singapore.
+PY  - 2020
+JO  - PLoS neglected tropical diseases
+AB  - BACKGROUND: Predictive models can serve as early warning systems and can be used to forecast future risk of various infectious diseases. Conventionally, regression and time series models are used to forecast dengue incidence, using dengue surveillance (e.g., case counts) and weather data. However, these models may be limited in terms of model assumptions and the number of predictors that can be included. Machine learning (ML) methods are designed to work with a large number of predictors and thus offer an appealing alternative. Here, we compared the performance of ML algorithms with that of regression models in predicting dengue cases and outbreaks from 4 to up to 12 weeks in advance. Many countries lack sufficient health surveillance infrastructure, as such we evaluated the contribution of dengue surveillance and weather data on the predictive power of these models. METHODS: We developed ML, regression, and time series models to forecast weekly dengue case counts and outbreaks in Iquitos, Peru; San Juan, Puerto Rico; and Singapore from 1990-2016. Forecasts were generated using available weekly dengue surveillance, and weather data. We evaluated the agreement between model forecasts and actual dengue observations using Mean Absolute Error and Matthew's Correlation Coefficient (MCC). RESULTS: For near term predictions of weekly case counts and when using surveillance data, ML models had 21% and 33% less error than regression and time series models respectively. However, using weather data only, ML models did not demonstrate a practical advantage. When forecasting weekly dengue outbreaks 12 weeks in advance, ML models achieved a maximum MCC of 0.61. CONCLUSIONS: Our results identified 2 scenarios when ML models are advantageous over regression model: 1) predicting dengue weekly case counts 4 weeks ahead when dengue surveillance data are available and 2) predicting weekly dengue outbreaks 12 weeks ahead when dengue surveillance data are unavailable. Given the advantages of ML models, dengue early warning systems may be improved by the inclusion of these models.
+DO  - 10.1371/journal.pntd.0008710
+N1  - R0505
+ER  - 
+
+TY  - JOUR
+AU  - Stolerman, Lucas M.
+AU  - Maia, Pedro D.
+AU  - Kutz, J. Nathan
+TI  - Forecasting dengue fever in Brazil: An assessment of climate conditions.
+PY  - 2019
+JO  - PloS one
+AB  - Local climate conditions play a major role in the biology of the Aedes aegypti mosquito, the main vector responsible for transmitting dengue, zika, chikungunya and yellow fever in urban centers. For this reason, a detailed assessment of periods in which changes in climate conditions affect the number of human cases may improve the timing of vector-control efforts. In this work, we develop new machine-learning algorithms to analyze climate time series and their connection to the occurrence of dengue epidemic years for seven Brazilian state capitals. Our method explores the impact of two key variables-frequency of precipitation and average temperature-during a wide range of time windows in the annual cycle. Our results indicate that each Brazilian state capital considered has its own climate signatures that correlate with the overall number of human dengue-cases. However, for most of the studied cities, the winter preceding an epidemic year shows a strong predictive power. Understanding such climate contributions to the vector's biology could lead to more accurate prediction models and early warning systems.
+DO  - 10.1371/journal.pone.0220106
+N1  - R0521
+ER  - 
+
+TY  - JOUR
+AU  - Siqueira, Ionara Santos
+AU  - Queiroz, Joaquim Carlos Barbosa
+AU  - Amin, Mario Miguel
+AU  - Câmara, Renata Kelen Cardoso
+TI  - A Relação da Incidência de Casos de Dengue com a Precipitação na Área Urbana de Belém-PA, 2007 a 2011, Através de Modelos Multivariados de Séries Temporais
+PY  - 2018
+JO  - Revista Brasileira de Meteorologia
+AB  - Abstract It was conducted a mapping study of the areas of incidence and predictions for dengue cases in the urban area of Belém, where the Dengue Incidence Rate (DIR) related to rainfall precipitation was used to forecast dengue occurrences using a multivariate model based on the Box and Jenkins time series methodology. The study period was 5 years (2007-2011). The results of the DIR data analysis and precipitation showed that the increase in DIR is accompanied by an increase in precipitation, demonstrating a direct relationship between these variables in the period under consideration, in the neighborhoods of the urban area of Belém, with greater emphasis in the neighborhoods of Marco, Guamá and Pedreira. The predictive model built for the DIR showed a good fit with satisfactory results and, in this case, can be used to predict dengue.
+DO  - 10.1590/0102-7786332010
+N1  - R0543
+ER  - 
+
+TY  - JOUR
+AU  - Laureano-Rosario, Abdiel E.
+AU  - Duncan, Andrew P.
+AU  - Mendez-Lazaro, Pablo A.
+AU  - Garcia-Rejon, Julian E.
+AU  - Gomez-Carro, Salvador
+AU  - Farfan-Ale, Jose
+AU  - Savic, Dragan A.
+AU  - Muller-Karger, Frank E.
+TI  - Application of Artificial Neural Networks for Dengue Fever Outbreak Predictions in the Northwest Coast of Yucatan, Mexico and San Juan, Puerto Rico.
+PY  - 2018
+JO  - Tropical medicine and infectious disease
+AB  - Modelling dengue fever in endemic areas is important to mitigate and improve vector-borne disease control to reduce outbreaks. This study applied artificial neural networks (ANNs) to predict dengue fever outbreak occurrences in San Juan, Puerto Rico (USA), and in several coastal municipalities of the state of Yucatan, Mexico, based on specific thresholds. The models were trained with 19 years of dengue fever data for Puerto Rico and six years for Mexico. Environmental and demographic data included in the predictive models were sea surface temperature (SST), precipitation, air temperature (i.e., minimum, maximum, and average), humidity, previous dengue cases, and population size. Two models were applied for each study area. One predicted dengue incidence rates based on population at risk (i.e., numbers of people younger than 24 years), and the other on the size of the vulnerable population (i.e., number of people younger than five years and older than 65 years). The predictive power was above 70% for all four model runs. The ANNs were able to successfully model dengue fever outbreak occurrences in both study areas. The variables with the most influence on predicting dengue fever outbreak occurrences for San Juan, Puerto Rico, included population size, previous dengue cases, maximum air temperature, and date. In Yucatan, Mexico, the most important variables were population size, previous dengue cases, minimum air temperature, and date. These models have predictive skills and should help dengue fever mitigation and management to aid specific population segments in the Caribbean region and around the Gulf of Mexico.
+DO  - 10.3390/tropicalmed3010005
+N1  - R0549
+ER  - 
+
+TY  - JOUR
+AU  - Baquero, Oswaldo Santos
+AU  - Santana, Lidia Maria Reis
+AU  - Chiaravalloti-Neto, Francisco
+TI  - Dengue forecasting in São Paulo city with generalized additive models, artificial neural networks and seasonal autoregressive integrated moving average models.
+PY  - 2018
+JO  - PloS one
+AB  - Globally, the number of dengue cases has been on the increase since 1990 and this trend has also been found in Brazil and its most populated city-São Paulo. Surveillance systems based on predictions allow for timely decision making processes, and in turn, timely and efficient interventions to reduce the burden of the disease. We conducted a comparative study of dengue predictions in São Paulo city to test the performance of trained seasonal autoregressive integrated moving average models, generalized additive models and artificial neural networks. We also used a naïve model as a benchmark. A generalized additive model with lags of the number of cases and meteorological variables had the best performance, predicted epidemics of unprecedented magnitude and its performance was 3.16 times higher than the benchmark and 1.47 higher that the next best performing model. The predictive models captured the seasonal patterns but differed in their capacity to anticipate large epidemics and all outperformed the benchmark. In addition to be able to predict epidemics of unprecedented magnitude, the best model had computational advantages, since its training and tuning was straightforward and required seconds or at most few minutes. These are desired characteristics to provide timely results for decision makers. However, it should be noted that predictions are made just one month ahead and this is a limitation that future studies could try to reduce.
+DO  - 10.1371/journal.pone.0195065
+N1  - R0554
+ER  - 
+
+TY  - JOUR
+AU  - Lowe, Rachel
+AU  - Gasparrini, Antonio
+AU  - Van Meerbeeck, Cédric J
+AU  - Lippi, Catherine A
+AU  - Mahon, Roché
+AU  - Trotman, Adrian R
+AU  - Rollock, Leslie
+AU  - Hinds, Avery Q J
+AU  - Ryan, Sadie J
+AU  - Stewart-Ibarra, Anna M
+TI  - Nonlinear and delayed impacts of climate on dengue risk in Barbados: A modelling study
+PY  - 2018
+JO  - Plos Medicine
+AB  - BACKGROUND: Over the last 5 years (2013-2017), the Caribbean region has faced an unprecedented crisis of co-occurring epidemics of febrile illness due to arboviruses transmitted by the Aedes sp. mosquito (dengue, chikungunya, and Zika). Since 2013, the Caribbean island of Barbados has experienced 3 dengue outbreaks, 1 chikungunya outbreak, and 1 Zika fever outbreak. Prior studies have demonstrated that climate variability influences arbovirus transmission and vector population dynamics in the region, indicating the potential to develop public health interventions using climate information. The aim of this study is to quantify the nonlinear and delayed effects of climate indicators, such as drought and extreme rainfall, on dengue risk in Barbados from 1999 to 2016. METHODS AND FINDINGS: Distributed lag nonlinear models (DLNMs) coupled with a hierarchal mixed-model framework were used to understand the exposure-lag-response association between dengue relative risk and key climate indicators, including the standardised precipitation index (SPI) and minimum temperature (Tmin). The model parameters were estimated in a Bayesian framework to produce probabilistic predictions of exceeding an island-specific outbreak threshold. The ability of the model to successfully detect outbreaks was assessed and compared to a baseline model, representative of standard dengue surveillance practice. Drought conditions were found to positively influence dengue relative risk at long lead times of up to 5 months, while excess rainfall increased the risk at shorter lead times between 1 and 2 months. The SPI averaged over a 6-month period (SPI-6), designed to monitor drought and extreme rainfall, better explained variations in dengue risk than monthly precipitation data measured in millimetres. Tmin was found to be a better predictor than mean and maximum temperature. Furthermore, including bidimensional exposure-lag-response functions of these indicators-rather than linear effects for individual lags-more appropriately described the climate-disease associations than traditional modelling approaches. In prediction mode, the model was successfully able to distinguish outbreaks from nonoutbreaks for most years, with an overall proportion of correct predictions (hits and correct rejections) of 86% (81%:91%) compared with 64% (58%:71%) for the baseline model. The ability of the model to predict dengue outbreaks in recent years was complicated by the lack of data on the emergence of new arboviruses, including chikungunya and Zika. CONCLUSION: We present a modelling approach to infer the risk of dengue outbreaks given the cumulative effect of climate variations in the months leading up to an outbreak. By combining the dengue prediction model with climate indicators, which are routinely monitored and forecasted by the Regional Climate Centre (RCC) at the Caribbean Institute for Meteorology and Hydrology (CIMH), probabilistic dengue outlooks could be included in the Caribbean Health-Climatic Bulletin, issued on a quarterly basis to provide climate-smart decision-making guidance for Caribbean health practitioners. This flexible modelling approach could be extended to model the risk of dengue and other arboviruses in the Caribbean region.
+DO  - 10.1371/journal.pmed.1002613
+N1  - R0562
+ER  - 
+
+TY  - JOUR
+AU  - Martínez-Bello, Daniel Adyro
+AU  - López-Quílez, Antonio
+AU  - Torres-Prieto, Alexander
+TI  - Bayesian dynamic modeling of time series of dengue disease case counts.
+PY  - 2017
+JO  - PLoS neglected tropical diseases
+AB  - The aim of this study is to model the association between weekly time series of dengue case counts and meteorological variables, in a high-incidence city of Colombia, applying Bayesian hierarchical dynamic generalized linear models over the period January 2008 to August 2015. Additionally, we evaluate the model's short-term performance for predicting dengue cases. The methodology shows dynamic Poisson log link models including constant or time-varying coefficients for the meteorological variables. Calendar effects were modeled using constant or first- or second-order random walk time-varying coefficients. The meteorological variables were modeled using constant coefficients and first-order random walk time-varying coefficients. We applied Markov Chain Monte Carlo simulations for parameter estimation, and deviance information criterion statistic (DIC) for model selection. We assessed the short-term predictive performance of the selected final model, at several time points within the study period using the mean absolute percentage error. The results showed the best model including first-order random walk time-varying coefficients for calendar trend and first-order random walk time-varying coefficients for the meteorological variables. Besides the computational challenges, interpreting the results implies a complete analysis of the time series of dengue with respect to the parameter estimates of the meteorological effects. We found small values of the mean absolute percentage errors at one or two weeks out-of-sample predictions for most prediction points, associated with low volatility periods in the dengue counts. We discuss the advantages and limitations of the dynamic Poisson models for studying the association between time series of dengue disease and meteorological variables. The key conclusion of the study is that dynamic Poisson models account for the dynamic nature of the variables involved in the modeling of time series of dengue disease, producing useful models for decision-making in public health.
+DO  - 10.1371/journal.pntd.0005696
+N1  - R0576
+ER  - 
+
+TY  - JOUR
+AU  - Johansson, Michael A.
+AU  - Reich, Nicholas G.
+AU  - Hota, Aditi
+AU  - Brownstein, John S.
+AU  - Santillana, Mauricio
+TI  - Evaluating the performance of infectious disease forecasts: A comparison of climate-driven and seasonal dengue forecasts for Mexico.
+PY  - 2016
+JO  - Scientific reports
+AB  - Dengue viruses, which infect millions of people per year worldwide, cause large epidemics that strain healthcare systems. Despite diverse efforts to develop forecasting tools including autoregressive time series, climate-driven statistical, and mechanistic biological models, little work has been done to understand the contribution of different components to improved prediction. We developed a framework to assess and compare dengue forecasts produced from different types of models and evaluated the performance of seasonal autoregressive models with and without climate variables for forecasting dengue incidence in Mexico. Climate data did not significantly improve the predictive power of seasonal autoregressive models. Short-term and seasonal autocorrelation were key to improving short-term and long-term forecasts, respectively. Seasonal autoregressive models captured a substantial amount of dengue variability, but better models are needed to improve dengue forecasting. This framework contributes to the sparse literature of infectious disease prediction model evaluation, using state-of-the-art validation techniques such as out-of-sample testing and comparison to an appropriate reference model.
+DO  - 10.1038/srep33707
+N1  - R0592
+ER  - 
+
+TY  - JOUR
+AU  - Harshit
+AU  - Harjule P.
+TI  - A Fractional Physics-Informed Neural Network with Ensemble Learning for Dengue Forecasting
+PY  - 2026
+DO  - 10.1007/978-3-032-29912-3_30
+N1  - R0614
+ER  - 
+
+TY  - JOUR
+AU  - Xavier L.L.
+AU  - Pessanha J.F.M.
+AU  - Honorio N.A.
+AU  - Moreira D.M.
+AU  - Peiter P.C.
+TI  - The incidence of dengue fever explained by climatic variables in municipalities in the metropolitan area of Rio de Janeiro | A Incidência da Dengue Explicada por Variáveis Climáticas em Municípios da Região Metropolitana do Rio de Janeiro
+PY  - 2025
+JO  - Trends in Computational and Applied Mathematics
+AB  - O aumento das notificaçoes por dengue contribui para a sobrecarga dos sistemas de sa´ude p´ublica subtraindo recursos p´ublicos que poderiam ser empregados no combate `a pobreza e `a melhoria da distribuiç˜ao de renda da populaç˜ao. Embora a dengue seja uma doenc¸a veiculada por vetores, observa-se que populaç˜oes residentes em ´areas com diferentes padr˜oes urban´ısticos, econˆomicos e demogr´aficos s˜ao impactadas diferenciadamente por essa arbovirose. Compreender como ocorreu nos ´ultimos anos a evoluç˜ao temporal da dengue pode proporcionar aos gestores em saúde um n´ıvel mais detalhado da dinˆamica de propagaç˜ao da dengue e dos seus vetores, visando auxiliar nas tomadas de decis˜oes e subsidiar o controle local em ´areas endˆemicas. Para alcanc¸ar este objetivo prop˜oe-se o ajuste de modelos para an´alise e previs˜ao de s´eries temporais. O presente trabalho descreve um estudo realizado para os munic´ıpios de Guapimirim e Mag´e, localizados na regi˜ao metropolitana do Rio de Janeiro. A modelagem de s´eries temporais foi fundamentada em modelos ARMAX, que possibilitam estimar a relaçao entre a incidˆencia de dengue e as vari´aveis clim´aticas.
+DO  - 10.5540/tcam.2025.026.e01476
+N1  - R0666
+ER  - 
+
+TY  - JOUR
+AU  - Tammineni R.
+AU  - Sirisha G.N.V.G.
+TI  - Multivariate Time Series Analysis for Predicting Number of Disease Cases
+PY  - 2022
+JO  - Lecture Notes in Electrical Engineering
+DO  - 10.1007/978-981-16-8550-7_42
+N1  - R0712
+ER  - 
+
+TY  - JOUR
+AU  - Xavier L.L.
+AU  - Honorio N.A.
+AU  - Pessanha J.F.M.
+AU  - Peiter P.C.
+TI  - Analysis of climate factors and dengue incidence in the metropolitan region of Rio de Janeiro, Brazil
+PY  - 2021
+JO  - Plos One
+AB  - Dengue is a re-emerging disease, currently considered the most important mosquito-borne arbovirus infection affecting humankind, taking into account both its morbidity and mortality. Brazil is considered an endemic country for dengue, such that more than 1,544,987 confirmed cases were notified in 2019, which means an incidence rate of 735 for every 100 thousand inhabitants. Climate is an important factor in the temporal and spatial distribution of vector-borne diseases, such as dengue. Thus, rainfall and temperature are considered macro-factors determinants for dengue, since they directly influence the population density of Aedes aegypti, which is subject to seasonal fluctuations, mainly due to these variables. This study examined the incidence of dengue fever related to the climate influence by using temperature and rainfall variables data obtained from remote sensing via artificial satellites in the metropolitan region of Rio de Janeiro, Brazil. The mathematical model that best fits the data is based on an auto-regressive moving average with exogenous inputs (ARMAX). It reproduced the values of incidence rates in the study period and managed to predict with good precision in a one-year horizon. The approach described in present work may be replicated in cities around the world by the public health managers, to build auxiliary operational tools for control and prevention tasks of dengue, as well of other arbovirus diseases.
+DO  - 10.1371/journal.pone.0251403
+N1  - R0720
+ER  - 
+
+TY  - JOUR
+AU  - Ceballos-Arroyo A.M.
+AU  - Maldonado-Perez D.
+AU  - Mesa-Yepes H.
+AU  - Hernandez-Ortiz J.P.
+AU  - Branch-Bedoya J.W.
+TI  - Towards a machine learning-based approach to forecasting Dengue virus outbreaks in Colombian cities: A case-study: Medellin, Antioquia
+PY  - 2020
+AB  - The geographical conditions of Colombia favor the re-emergence and propagation of infectious tropical diseases. Among them, the Dengue virus is highly endemic throughout the country, thereby locating this arbovirus as one of the major pathologies of the public health system. Therefore, there is a global challenge to generate novel strategies to predict and control dengue virus transmission. In particular, during the Colombian 2016 Dengue outbreak, more than 17 thousand Dengue cases were reported by the health authorities of Medellin, Antioquia. In this paper, we present a machine learning approach for the early detection of dengue outbreaks in the city of Medellin. We use an artificial neural network as the core of the machine learning algorithm, with environmental, meteorological and epidemiological data from the National Institute of Health –SIVIGILA– and the Aburra Valley Early Warning System –SIATA–. Our objective is to identify possible Dengue outbreaks, i.e. to create an early warning system, to provide a preventive timeline to the health authorities to design contingency plans and to mitigate the impact of dengue on the population of Medellin. Our results indicate that a artificial neural network forecasting for time series shows a trend for the correct prediction of dengue cases up to the first four weeks with a deterioration in precision as the forecast is pushed for additional ten to twenty weeks.
+DO  - 10.1117/12.2547001
+N1  - R0745
+ER  - 
+
